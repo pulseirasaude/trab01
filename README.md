@@ -1,5 +1,5 @@
-# TRABALHO 01:  Título do Trabalho
-Trabalho desenvolvido durante a disciplina de BD1
+# TRABALHO 01:  Pulseira Saúde
+Trabalho desenvolvido durante a disciplina de BD1 no perído 2018/2 com o Professor Moisés Omena
 
 # Sumário
 
@@ -8,7 +8,7 @@ Integrantes do grupo<br>
 Wallace Silva_de_Paula: wallacedpaula97@gmail.com<br>
 Leonardo_Sena: leosena1995@gmail.com<br>
 Willian_Vaneli:<br>
-Anne_Caroli:<br>
+Anne_Caroli: carolinesilva4@hotmail.com
 
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
