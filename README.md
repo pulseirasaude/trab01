@@ -20,7 +20,7 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
 
 ### 3.MINI-MUNDO Novo<br>
 
-> 
+> Sistema que possibilita o gerenciamento logistico de uma frota veicular, 
 
 Aplicativo web que possibilita o monitoramento de pessoas cardíacas, o sistema será capaz de criar alertas de socorro para situações críticas, relatório de dados cardíacos do paciente para análise. O sistema terá um cadastro de paciente e a cada paciente terá vinculado favoritos, que são as pessoas que receberam os alertas nos casos críticos, um medico vinculado que será o medico com acesso as suas informações para analise do seu quadro cardíaco. Medico, paciente e favorito terão login e senha para acessar e sistema e que controlaram o acesso a cada setor do sistema.    
 
