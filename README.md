@@ -1,4 +1,4 @@
-# TRABALHO 01:  Pulseira Saúde
+# TRABALHO 01:  Carga Pesada
 Trabalho desenvolvido durante a disciplina de BD1 no perído 2018/2 com o Professor Moisés Omena
 
 # Sumário
@@ -7,19 +7,22 @@ Trabalho desenvolvido durante a disciplina de BD1 no perído 2018/2 com o Profes
 Integrantes do grupo<br>
 Wallace Silva_de_Paula: wallacedpaula97@gmail.com<br>
 Leonardo_Sena: leosena1995@gmail.com<br>
-Willian_Vaneli:<br>
+Willian_Vaneli: willianvaneli@gmail.com<br>
 Anne_Caroli: carolinesilva4@hotmail.com
 
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
-Este documento contém a especificação do projeto do banco de dados PULSEIRA SAUDE 
+Este documento contém a especificação do projeto do banco de dados Carga Pesada 
 <br>e motivação da escolha realizada. <br>
 
-> O projeto PULSEIRA SAUDE tem como objetivo auxiliar o monitoramento e acompanhamento de pacientes cardíaco devido o aumento da quantidade de pacientes com problemas cardíacos nos últimos tempos e a falta de softwares dedicados para o monitoramento continuo dos dados cardíacos seja para acompanhamento medico ou para o monitoramento diário. Mesmo nos dias de hoje com os avanços tecnológicos que temos para exames cardíacos são feitos de tempo em tempo em momentos específicos, sendo assim não possuem uma avaliação da real situação do paciente e os exames atuais para o monitoramento diário também são periódicos e usam aparelhos de médio porte como os utilizados nos exames MAPA e HOLTER.
+> Devido as novas necessidades do mercado onde empresas tem multiplicado clientes e encurtado distâncias comerciais, o serviço de transporte tem aumentado sua importância e necessidade. Com o aumento das frotas de veiculos é impossível controlar apenas manualmente e com papeis assim o projeto Carga Pesada surge como uma forma de informatizar o gerenciamento de frotas veiculares.
+
 
 ### 3.MINI-MUNDO Novo<br>
 
-> Aplicativo web que possibilita o monitoramento de pessoas cardíacas, o sistema será capaz de criar alertas de socorro para situações críticas, relatório de dados cardíacos do paciente para análise. O sistema terá um cadastro de paciente e a cada paciente terá vinculado favoritos, que são as pessoas que receberam os alertas nos casos críticos, um medico vinculado que será o medico com acesso as suas informações para analise do seu quadro cardíaco. Medico, paciente e favorito terão login e senha para acessar e sistema e que controlaram o acesso a cada setor do sistema.    
+> 
+
+Aplicativo web que possibilita o monitoramento de pessoas cardíacas, o sistema será capaz de criar alertas de socorro para situações críticas, relatório de dados cardíacos do paciente para análise. O sistema terá um cadastro de paciente e a cada paciente terá vinculado favoritos, que são as pessoas que receberam os alertas nos casos críticos, um medico vinculado que será o medico com acesso as suas informações para analise do seu quadro cardíaco. Medico, paciente e favorito terão login e senha para acessar e sistema e que controlaram o acesso a cada setor do sistema.    
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
