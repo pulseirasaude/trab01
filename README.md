@@ -25,6 +25,10 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 
+![Alt text](https://github.com/discipbd1/trab01/blob/master/Mockups/telainicial.png?raw=true "Title")
+![Arquivo PDF do Protótipo Balsamiq feito para o projeto Carga Pesada](https://github.com/discipbd1/trab01/blob/master/Mockups/mockup-bd1.pdf?raw=true "Empresa Devcom")
+
+
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
     b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
