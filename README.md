@@ -20,27 +20,21 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
 
 ### 3.MINI-MUNDO Novo<br>
 
-> Sistema que possibilita o gerenciamento logistico de uma frota veicular, 
+> Sistema que possibilita o gerenciamento logistico de uma frota veicular tanto como um sistema completo de uma empresa de transporte quanto como um subsistema de uma empresa que tem uma frota veicular. O sistema visa gerenciar todos dados pertinentes ao veiculo como: dados do veiculo, seguro, financiamento, tipo, modelo, motorista, serviço entre outros. O sistema também faz o gerenciamento dos serviços prestados, em que os veiculos estão inclusos, linkando motorista, veiculo, serviço e cliente.
 
-Aplicativo web que possibilita o monitoramento de pessoas cardíacas, o sistema será capaz de criar alertas de socorro para situações críticas, relatório de dados cardíacos do paciente para análise. O sistema terá um cadastro de paciente e a cada paciente terá vinculado favoritos, que são as pessoas que receberam os alertas nos casos críticos, um medico vinculado que será o medico com acesso as suas informações para analise do seu quadro cardíaco. Medico, paciente e favorito terão login e senha para acessar e sistema e que controlaram o acesso a cada setor do sistema.    
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
-Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
 
-Sugestão: https://balsamiq.com/products/mockups/<br>
-
-![Alt text](https://github.com/discipbd1/trab01/blob/master/balsamiq.png?raw=true "Title")
-![Arquivo PDF do Protótipo Balsamiq feito para Empresa Devcom](https://github.com/discipbd1/trab01/blob/master/arquivos/EmpresaDevcom.pdf?raw=true "Empresa Devcom")
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
     b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
     
-> A Empresa DevCom precisa inicialmente dos seguintes relatórios:
-* Relatório que informe quais são os gerentes de cada departamento incluindo as seguintes informações: número do departamento,  nome do departamento, e nome do gerente.
-* Relatório de empregados por projeto incluindo as seguintes informações: número do projeto, nome do projeto, rg do empregado, nome do empregado e quantidade de horas de trabalho do empregado alocadas ao projeto.
-* Relatório de empregados com dependentes incluindo as seguintes informações: rg do empregado, nome do empregado, nome do dependente, tipo de relação, data de nascimento do dependente e sexo do dependente.
-* Relatório com a quantidade de empregados por cada departamento incluindo as seguintes informações: nome do departamento, supervisor e quantidade de empregados alocados no departamento.
-* Relatório de supervisores e supervisionados incluindo as seguintes informações: nome do supervisor e nome do supervisionado.
+> A Empresa Carga Pesada precisa inicialmente dos seguintes relatórios:
+* Relarótio de veiculos disponíveis incluindo as seguintes informações: id do veiculo, nome do veiculo, tipo do veiculo e status do veiculo.
+* Relatório de funcionários disponíveis incluindo as seguintes informações: id do funcionário, nome do funcionário e status do funcionário.
+* Relatório de finanças incluindo as seguintes informações: Entradas, saídas e balanço.
+* Relatório de veículos alienados: id do veiculo, nome do veiculo, tipo do veiculo, valor parcela e parcelas restantes.
+* Relatório de serviço por periodo incluindo as seguintes informações: id serviço, cliente , status.
  
  
 #### 4.2 TABELA DE DADOS DO SISTEMA:
