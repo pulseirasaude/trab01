@@ -47,7 +47,7 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
     e deve ser criada antes do modelo conceitual
     c) Após criada esta tabela não deve ser modificada, pois será comparada com os resultados finais na conclusão do trabalho
     
-![Exemplo de Tabela de dados da Empresa Devcom](https://github.com/discipbd1/trab01/blob/master/arquivos/TabelaEmpresaDevCom_sample.xlsx?raw=true "Tabela - Empresa Devcom")
+![Exemplo de Tabela de dados da Empresa Devcom](https://github.com/discipbd1/trab01/blob/master/tabelas.ods?raw=true "Tabela - Empresa Devcom")
     
 >## Marco de Entrega 01 em: (06/09/2018)<br>
 
