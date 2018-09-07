@@ -55,7 +55,7 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
         
         Grupos de Validação: Controle de frequência de Alunos e Aquário inteligente.
         
-![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Conceito_CargaPesado?raw=true "Modelo Conceitual")
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Conceito_CargaPesado.png?raw=true "Modelo Conceitual")
     
     B) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
     C) QUALIDADE 
