@@ -73,7 +73,7 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
     [atributo]: [descrição da decisão]
     
     EXEMPLO:
-    a) 
+    a) Campo 
     a) Campo endereço: em nosso projeto optamos por um campo multivalorado e composto, pois a empresa 
     pode possuir para cada departamento mais de uma localização... 
     b) justifique!
@@ -110,9 +110,9 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
     TELEFONE_03: Campo que armazena numero do telefone do funcionario ou cliente.
     EMAIL: Campo que armazena email do funcionario ou cliente.
     ID_CLIENTE: campo que armazena a identificação que relaciona o contato com o cliente.
-	ID_FUNCIONARIO: campo que armazena a identificação que relaciona o contato com o funcionario.
+    ID_FUNCIONARIO: campo que armazena a identificação que relaciona o contato com o funcionario.
     
-    ENDERECO: Tablea que guarda endereço do funcionario ou cliente.
+    ENDERECO: Tabela que guarda endereço do funcionario ou cliente.
     ENDERECO: campo que armazena o nome do endereço.
     LOGRADOURO: campo que armazena o logradouro do endereço.
     NUMERO: campo que armazena o número do endereço.
@@ -121,10 +121,10 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
     CIDADE: campo que armazena a cidade do endereço.
     ESTADO: campo que armazena o estado do endereço.
     ID_CLIENTE: campo que armazena a identificação que relaciona o endereço com o cliente.
-	ID_FUNCIONARIO: campo que armazena a identificação que relaciona o endereço com o funcionario.
+    ID_FUNCIONARIO: campo que armazena a identificação que relaciona o endereço com o funcionario.
     
-    CATEGORIA: 
-    NOME: campo que armazena nome da categoria.
+    CATEGORIA: Tabela que armazena a categoria do veiculo.
+    NOME: campo que armazena nome da categoria do veiculo.
     
     MODELO: Tabela que guarda modelo do veiculo.
     MODELO: campo que armazena o modelo do veiculo.
@@ -144,8 +144,8 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
     STATUS: campo que armazena o status do veiculo.
     COMBUSTIVEL: campo que armazena o tipo do combustivel do veiculo.
     ID_CATEGORIA: campo que armazena a identificação que relaciona o veiculo com sua categoria.
-	ID_MODELO: campo que armazena a identificação que relaciona o veiculo com seu modelo.
-	ID_MOTORISTA: campo que armazena a identificação que relaciona o veiculo com seu motorista.
+    ID_MODELO: campo que armazena a identificação que relaciona o veiculo com seu modelo.
+    ID_MOTORISTA: campo que armazena a identificação que relaciona o veiculo com seu motorista.
     
     SEGURO: Tabela que armazena informações sobre o seguro do veiculo.
     STATUS: campo que armazena status do seguro.
@@ -162,10 +162,14 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
     
     SERVICO: Tabela que armazena informações sobre serviço.
     STATUS: campo que armazena o status do serviço.
-    ENDERECO: 
-    LOGRADOURO: 
-    NUMERO
-    CEP
+    VALOR_CONTRATO: campo que armazena o valor do contrato.
+    DATA_INICIO: campo que armazena a data inicio do contrato.
+    DATA_FIM: campo que armazena a data fim do contrato.
+    ID_CLIENTE: campo que armazena a identificação que relaciona o serviço com respectivo cliente.
+    ID_FUNCIONARIO: campo que armazena a identificação que relaciona o serviço com respectivo funcionario.
+    ID_VEICULO: campo que armazena a identificação que relaciona o serviço com respectivo veiculo.
+    ID_ENDERECO_ORIGEM: campo que armazena a identificação que relaciona o serviço com respectivo endereço de origem.
+    ID_ENDERECO_DESTINO: campo que armazena a identificação que relaciona o serviço com respectivo endereço de destino.
     
     
 ### 6	MODELO LÓGICO<br>
