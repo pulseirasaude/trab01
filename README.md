@@ -55,15 +55,7 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
         
         Grupos de Validação: Controle de frequência de Alunos e Aquário inteligente.
         
-![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Conceito_CargaPesado.png?raw=true "Modelo Conceitual")
-    
-    B) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
-    C) QUALIDADE 
-        Garantir que a semântica dos atributos seja clara no esquema
-        Criar o esquema de forma a garantir a redução de informação redundante, possibilidade de valores null, 
-        e tuplas falsas
-    
-        
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Conceito_CargaPesado.png?raw=true "Modelo Conceitual")        
     
 #### 5.1 Validação do Modelo Conceitual
     [Grupo01]: [Nomes dos que participaram na avaliação]
@@ -125,7 +117,6 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
     
     CATEGORIA: Tabela que armazena a categoria do veiculo.
     NOME: campo que armazena nome da categoria do veiculo.
-    
     MODELO: Tabela que guarda modelo do veiculo.
     MODELO: campo que armazena o modelo do veiculo.
     MARCA: campo que armazena a marca do veiculo.
@@ -171,6 +162,16 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
     ID_ENDERECO_ORIGEM: campo que armazena a identificação que relaciona o serviço com respectivo endereço de origem.
     ID_ENDERECO_DESTINO: campo que armazena a identificação que relaciona o serviço com respectivo endereço de destino.
     
+    ENDERECO SERVICO: Tabela que armazena informações sobre os endereços de origem e destino de um serviço.
+    TIPO: campo que armazena o tipo de endereço (O-Origem / D-Destino)
+    ID_CLIENTE_ENDERECO: campo que armazena o id do endereco para os casos onde o endereco de origem é o do cliente.
+    ENDERECO: campo que armazena o nome do endereço.
+    LOGRADOURO: campo que armazena o logradouro do endereço.
+    NUMERO: campo que armazena o número do endereço.
+    CEP: campo que armazena o cep do endereço.
+    COMPLEMENTO: campo que armazena o complemento do endereço.
+    CIDADE: campo que armazena a cidade do endereço.
+    ESTADO: campo que armazena o estado do endereço.
     
 ### 6	MODELO LÓGICO<br>
         a) inclusão do modelo lógico do banco de dados
