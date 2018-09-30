@@ -73,10 +73,8 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
     [atributo]: [descrição da decisão]
     
     EXEMPLO:
-    a) Campo 
-    a) Campo endereço: em nosso projeto optamos por um campo multivalorado e composto, pois a empresa 
-    pode possuir para cada departamento mais de uma localização... 
-    b) justifique!
+    Tabela cliente
+    a) Campo NOME: Decidido utilizar vetor de caracteres limitado a 45 posições.
 
 >## Marco de Entrega 02 em: (17/09/2018)<br>
 #### 5.3 DESCRIÇÃO DOS DADOS 
