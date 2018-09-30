@@ -73,6 +73,7 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
     [atributo]: [descrição da decisão]
     
     EXEMPLO:
+    a) 
     a) Campo endereço: em nosso projeto optamos por um campo multivalorado e composto, pois a empresa 
     pode possuir para cada departamento mais de uma localização... 
     b) justifique!
@@ -81,11 +82,92 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
 #### 5.3 DESCRIÇÃO DOS DADOS 
     [objeto]: [descrição do objeto]
     
-    EXEMPLO:
-    CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
-    CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
+    CLIENTE: Tabela que armazena as informações relativas ao cliente
+    NOME: campo que armazena o nome do cliente.
+    CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.
+    CNPJ: campo que armazena o número de Cadastro de Pessoa Juridica para cada cliente da empresa.
+    DATA_CADASTRO: campo que armazena a data do cadastro do cliente na empresa.
+    DATA_NASCIMENTO: campo que armazena data de nascimento do cliente.
 
-
+    FUNCIONARIO: Tabela que armazena as informações relativas ao funcionário da empresa.
+    NOME: campo que armazena o nome do funcionário.
+    CPF: campo que armazena o número de Cadastro de Pessoa Física para cada funcionário da empresa.
+    CARGO: campo que armazena o cargo ocupado pelo funcionário da empresa.
+    SALARIO: campo que armazena o salário do funcionário da empresa.
+    SEXO: campo que armazena o sexo do funcionário da empresa.
+    DATA_CADASTRO: campo que armazena a data de entrada do funcionário da empresa.
+    DATA_NASCIMENTO: campo que armazena a data de nascimento do funcionário da empresa.
+    
+    MOTORISTA: Tabela que armazena as informações relativas ao motorista da empresa.
+    CNH: campo que armazena a identificação da CNH do motorista.
+    DATA_VENCIMENTO: campo que armazena o vencimento da CNH.
+    TIPO: campo que armazena o tipo da CNH.
+    ID_FUNCIONARIO: campo que armazena a identificação que relaciona o motorista com suas informações como funcionario.
+    
+    CONTATO: Tabela que guarda contato do funcionario ou cliente.
+    TELEFONE_01: Campo que armazena numero do telefone do funcionario ou cliente. 
+    TELEFONE_02: Campo que armazena numero do telefone do funcionario ou cliente.
+    TELEFONE_03: Campo que armazena numero do telefone do funcionario ou cliente.
+    EMAIL: Campo que armazena email do funcionario ou cliente.
+    ID_CLIENTE: campo que armazena a identificação que relaciona o contato com o cliente.
+	ID_FUNCIONARIO: campo que armazena a identificação que relaciona o contato com o funcionario.
+    
+    ENDERECO: Tablea que guarda endereço do funcionario ou cliente.
+    ENDERECO: campo que armazena o nome do endereço.
+    LOGRADOURO: campo que armazena o logradouro do endereço.
+    NUMERO: campo que armazena o número do endereço.
+    CEP: campo que armazena o cep do endereço.
+    COMPLEMENTO: campo que armazena o complemento do endereço.
+    CIDADE: campo que armazena a cidade do endereço.
+    ESTADO: campo que armazena o estado do endereço.
+    ID_CLIENTE: campo que armazena a identificação que relaciona o endereço com o cliente.
+	ID_FUNCIONARIO: campo que armazena a identificação que relaciona o endereço com o funcionario.
+    
+    CATEGORIA: 
+    NOME: campo que armazena nome da categoria.
+    
+    MODELO: Tabela que guarda modelo do veiculo.
+    MODELO: campo que armazena o modelo do veiculo.
+    MARCA: campo que armazena a marca do veiculo.
+    ANO: campo que armazena o ano do veiculo.
+    EIXO: campo que armazena quantos eixos o veiculo tem.
+    PESO: campo que armazena o peso do veiculo.
+    ALTURA: campo que armazena a altura do veiculo.
+    LARGURA: campo que armazena a largura do veiculo.
+    COMPRIMENTO: campo que armazena o comprimento do veiculo.
+    COR: campo que armazena a cor do veiculo.
+    
+    VEICULO: Tabela que guarda informações do veiculo.
+    NOME: campo que armazena o nome do veiculo.
+    CHASSI: campo que armazena o chassi do veiculo.
+    PLACA: campo que armazena a placa do veiculo.
+    STATUS: campo que armazena o status do veiculo.
+    COMBUSTIVEL: campo que armazena o tipo do combustivel do veiculo.
+    ID_CATEGORIA: campo que armazena a identificação que relaciona o veiculo com sua categoria.
+	ID_MODELO: campo que armazena a identificação que relaciona o veiculo com seu modelo.
+	ID_MOTORISTA: campo que armazena a identificação que relaciona o veiculo com seu motorista.
+    
+    SEGURO: Tabela que armazena informações sobre o seguro do veiculo.
+    STATUS: campo que armazena status do seguro.
+    DATA_VENCIMENTO: campo que armazena data do vencimento de cada parcela do seguro.
+    FIM_CONTRATO: campo que armazena data do vencimento do contrato do seguro.
+    ID_VEICULO: campo que armazena a identificação que relaciona o seguro com respectivo veiculo.
+    
+    FINANCIAMENTO: Tabela que armazena informações sobre o financiamento de veiculos.
+    VALOR_PARCELAS: campo que armazena o valor das parcelas do financiamento.
+    PARCELAS_TOTAIS: campo que armazena a quantidade de parcelas do financiamento.
+    PARCELAS_PAGAS: campo que armazena a quantidade de parcelas pagas do financiamento.
+    FINANCIADOR: campo que armazena o financiador do financiamento.
+    ID_VEICULO: campo que armazena a identificação que relaciona o financiamento com respectivo veiculo.
+    
+    SERVICO: Tabela que armazena informações sobre serviço.
+    STATUS: campo que armazena o status do serviço.
+    ENDERECO: 
+    LOGRADOURO: 
+    NUMERO
+    CEP
+    
+    
 ### 6	MODELO LÓGICO<br>
         a) inclusão do modelo lógico do banco de dados
         b) verificação de correspondencia com o modelo conceitual 
