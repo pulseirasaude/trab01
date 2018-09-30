@@ -70,11 +70,13 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
     [Grupo02]: [Nomes dos que participaram na avaliação]
 
 #### 5.2 DECISÕES DE PROJETO
-    [atributo]: [descrição da decisão]
-    
-    EXEMPLO:
-    Tabela cliente
-    a) Campo NOME: Decidido utilizar vetor de caracteres limitado a 45 posições.
+    a) Tabela Enderecos: Optamos em nosso projeto por usar uma tabela com os endereços de cliente, por que um cliente ou funcionário poderá ter mais de um endereço vinculado ao seu cadastro, portanto no atributo ID_CLIENTE E ID_FUNCIONARIO temos a relação com cliente ou funcionário.
+    b) Tabela de Endereco_Serviço: Optamos por criar um endereço para cada serviço pos um cliente pode solicitar o transporte de um endereço diferente do endereço cadastrado em seu registro.
+    c) O campo TIPO dentro de Endereco_Servico informa se o endereço é o de origem ou o de destino dentro do serviço realizado.
+    d) Na tabela Contato decidimos colocar 3 espaços para telefone de vido a empresa ter mais de um responsável pela área.
+    e) Na tabela Contato da mesma forma que na tabela Enderecos temos os atributos ID_CLIENTE E ID_FUNCIONARIO onde temos a relação com cliente ou funcionário.
+    f) Na tabela Financiamento não colocamos as informações de parcelas restantes devido informação poder ser calculada através dos atributos PARCELAS_TOTAIS E PARCELAS_PAGAS.
+    g) Decidimos criar a tabela MODELO para distinguir variações entre modelos de um mesmo tipo de veiculo, essas informações sobre o veiculo são importantes para as notas fiscais.
 
 >## Marco de Entrega 02 em: (17/09/2018)<br>
 #### 5.3 DESCRIÇÃO DOS DADOS 
