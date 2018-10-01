@@ -1,20 +1,54 @@
-insert into veiculo (nome,chassi,placa,status,combustivel) values (
-	'Azulao','12345','MKV1010','em uso','Disel'),
-	'Amarelao','23456','MKV1011','disponivel','Disel'),
-	'Laranjao','34567','MKV1012','disponivel','Disel'),
-	'mini','45678','MKV1013','em uso','Gasolina'),
-	'vectra','56789','MKV1014','em uso','Alcool');
+insert into veiculo (id,nome,chassi,placa,status,combustivel) values (
+	1,'Azulao','12345','MKV1010','em uso','Disel'),
+	(2,'Amarelao','23456','MKV1011','disponivel','Disel'),
+	(3,'Laranjao','34567','MKV1012','disponivel','Disel'),
+	(4,'mini','45678','MKV1013','em uso','Gasolina'),
+	(5,'vectra','56789','MKV1014','em uso','Alcool');
 
 
-insert into categoria (nome)values(
-	'Caminhao'),
-	('Caminhao'),
-	('Caminhao'),
-	('Mini Van'),
-	('Seda');
+insert into categoria (id,nome)values(
+	1,'Caminhao 2 eixos'),
+	(2,'Caminhao 3 eixos'),
+	(3,'Caminhao 4 eixos'),
+	(4,'Mini Van'),
+	(5,'Seda');
 
 
-insert into financiamento (valor_parcela,parcelas_totais,parcelas_pagas,financiador)values (
-	800.00,            
+insert into financiamento (valor_parcela,parcelas_totais,parcelas_pagas,financiador,id_veiculo)values (
+	1,800.00,60,22,'Santander',1),
+	(2,1000.00,48,40,'Banestes',2),
+	(3,1500.00,48,10,'ITAU',3),
+	(4,890.00,60,35,'Santander',4),
+	(5,550.00,48,20,'ITAU',5);
+	
 
-)
+inset into motorista (id,cnh,data_vencimento,tipo,id_funcionário) values(
+	1,123456,20/10/2018,'E',1),
+	(2,234567,30/02/2020,'D',2),
+	(3,345678,15/05/2021,'E',3),
+	(4,456789,02/06/2022,'AB',4),
+	(5,567891,05/06/2021,'D',5);
+	
+
+insert into modelo (id,modelo,marca,ano,eixo,peso,altura,largura,comprimento,cor) values(
+	1,'1414','Mercedes',1995,2,6000.00,3.00,2.80,4.20,'azul'),
+	(2,'1515','Mercedes',1999,2,6000.00,3.00,3.00,4.40,'amarelo'),
+	(3,'710','Mercedes',2000,2,5600.00,3.00,2.80,4.00,'laranja'),
+	(4,'spin','Chevrolet',2008,2,3000.00,2.60,2.40,3.40,'branco'),
+	(5,'Vectra','Ford',2005,2,2500.00,1.80,2.10,3.00,'prata');
+	
+
+insert into endereco (id,endereco,logradouro,numero,cep,complemento,cidade,estado) values(
+	1,'Augusto Ruschi','avenida',12,'29164-830','casa','serra','es'),
+	(2,'Brasil','avenida',45,'29164-495','','serra','es'),
+	(3,'Antônio Tironi','beco',08,'29164-637','','serra','es'),
+	(4,'Angélica Paulina da Cruz','alameda',23,'29150-553','','cariacica','es'),
+	(5,'Adilson Coelho','rua',102,'29150-533','casa','cariacica','es');
+
+
+
+
+insert into seguro (id,status,data_vencimento,fim_contrato,id_veiculo) values (
+	1,'ativo',10,
+	
+	
