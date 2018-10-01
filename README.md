@@ -98,9 +98,7 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
     TELEFONE_02: Campo que armazena numero do telefone do funcionario ou cliente.
     TELEFONE_03: Campo que armazena numero do telefone do funcionario ou cliente.
     EMAIL: Campo que armazena email do funcionario ou cliente.
-    ID_CLIENTE: campo que armazena a identificação que relaciona o contato com o cliente.
-    ID_FUNCIONARIO: campo que armazena a identificação que relaciona o contato com o funcionario.
-    
+      
     ENDERECO: Tabela que guarda endereço do funcionario ou cliente.
     ENDERECO: campo que armazena o nome do endereço.
     LOGRADOURO: campo que armazena o logradouro do endereço.
@@ -109,9 +107,7 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
     COMPLEMENTO: campo que armazena o complemento do endereço.
     CIDADE: campo que armazena a cidade do endereço.
     ESTADO: campo que armazena o estado do endereço.
-    ID_CLIENTE: campo que armazena a identificação que relaciona o endereço com o cliente.
-    ID_FUNCIONARIO: campo que armazena a identificação que relaciona o endereço com o funcionario.
-    
+       
     CATEGORIA: Tabela que armazena a categoria do veiculo.
     NOME: campo que armazena nome da categoria do veiculo.
     MODELO: Tabela que guarda modelo do veiculo.
@@ -159,16 +155,26 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
     ID_ENDERECO_ORIGEM: campo que armazena a identificação que relaciona o serviço com respectivo endereço de origem.
     ID_ENDERECO_DESTINO: campo que armazena a identificação que relaciona o serviço com respectivo endereço de destino.
     
-    ENDERECO SERVICO: Tabela que armazena informações sobre os endereços de origem e destino de um serviço.
+    ENDERECO SERVICO: Tabela que armazena e relaciona os serviços com os seus respectivos endereços.
     TIPO: campo que armazena o tipo de endereço (O-Origem / D-Destino)
-    ID_CLIENTE_ENDERECO: campo que armazena o id do endereco para os casos onde o endereco de origem é o do cliente.
-    ENDERECO: campo que armazena o nome do endereço.
-    LOGRADOURO: campo que armazena o logradouro do endereço.
-    NUMERO: campo que armazena o número do endereço.
-    CEP: campo que armazena o cep do endereço.
-    COMPLEMENTO: campo que armazena o complemento do endereço.
-    CIDADE: campo que armazena a cidade do endereço.
-    ESTADO: campo que armazena o estado do endereço.<br>
+    ID_ENDERECO: campo que armazena o id do endereco.
+    
+    ENDERECO FUNCIONARIO: Tabela que armazena e relaciona o funconairo com o seu respectivo endereço.
+    ID_ENDERECO: campo que armazena o id do endereco
+    ID_FUNCIONARIO: campo que armazena o id do funcionario.
+    
+    ENDERECO CLIENTE: Tabela que armazena e relaciona o cliente com o(s) seu(s) respectivo(s) endereço(s).
+    ID_ENDEREÇO: campo que armazena o id do endereco.
+    ID_FUNCIONARIO: campo que armazena o id do funcionario.
+    
+    CONTATO FUNCIONARIO: Tabela que armazena e relaciona o funcionario com o seu contato.
+    ID_CONTATO: campo que armazena o id do contato.
+    ID_FUNCIONARIO: campo que armazena o id do funcionario.
+    
+    CONTATO CLIENTE: Tabela que armazena e relaciona o o funcionario com o seu contato.
+    ID_CONTATO: campo que armazena o id do contato.
+    ID_CLIENTE: campo que armazena o id do cliente.
+    
     
 ### 6	MODELO LÓGICO<br>
 
