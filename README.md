@@ -168,15 +168,15 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
     CEP: campo que armazena o cep do endereço.
     COMPLEMENTO: campo que armazena o complemento do endereço.
     CIDADE: campo que armazena a cidade do endereço.
-    ESTADO: campo que armazena o estado do endereço.
+    ESTADO: campo que armazena o estado do endereço.<br>
     
 ### 6	MODELO LÓGICO<br>
-        
-        ![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/modelo_logico_v2.png?raw=true "Modelo Lógico") 
+
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/modelo_logico_v2.png?raw=true "Modelo Lógico") 
 
 ### 7	MODELO FÍSICO<br>
         
-        ![Alt text](https://github.com/pulseirasaude/trab01/blob/master/scripts/create_table_v2.sql "Script de Criação  Tabelas")           
+![Script de Criação  Tabelas](https://github.com/pulseirasaude/trab01/blob/master/scripts/create_table_v2.sql "Script de Criação  Tabelas")           
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
@@ -191,7 +191,7 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
         c) formato .SQL
 #### 8.3 INCLUSÃO DO SCRIPT PARA EXCLUSÃO DE TABELAS EXISTENTES, CRIAÇÃO DE TABELA NOVAS E INSERÇÃO DOS DADOS
         
-                ![Alt text](https://github.com/pulseirasaude/trab01/blob/master/scripts/drop_table_script_v2.sql "Script de Deletar Tabelas")
+![Script de Deletar Tabelas](https://github.com/pulseirasaude/trab01/blob/master/scripts/drop_table_script_v2.sql "Script de Deletar Tabelas")
         
         a) Junção dos scripts anteriores em um único script
         (Drop para exclusão de tabelas + create para tabelas e estruturas de dados + dados a serem inseridos)
