@@ -1,0 +1,20 @@
+insert into veiculo (nome,chassi,placa,status,combustivel) values (
+	'Azulao','12345','MKV1010','em uso','Disel'),
+	'Amarelao','23456','MKV1011','disponivel','Disel'),
+	'Laranjao','34567','MKV1012','disponivel','Disel'),
+	'mini','45678','MKV1013','em uso','Gasolina'),
+	'vectra','56789','MKV1014','em uso','Alcool');
+
+
+insert into categoria (nome)values(
+	'Caminhao'),
+	('Caminhao'),
+	('Caminhao'),
+	('Mini Van'),
+	('Seda');
+
+
+insert into financiamento (valor_parcela,parcelas_totais,parcelas_pagas,financiador)values (
+	800.00,            
+
+)
