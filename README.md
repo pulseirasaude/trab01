@@ -8,7 +8,6 @@ Integrantes do grupo<br>
 Wallace Silva_de_Paula: wallacedpaula97@gmail.com<br>
 Leonardo_Sena: leosena1995@gmail.com<br>
 Willian_Vaneli: willianvaneli@gmail.com<br>
-Anne_Caroli: carolinesilva4@hotmail.com
 
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
@@ -53,13 +52,11 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
 
 ### 5.MODELO CONCEITUAL<br>
         
-        Grupos de Validação: Controle de frequência de Alunos e Aquário inteligente.
-        
 ![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Conceito_CargaPesado.png?raw=true "Modelo Conceitual")        
     
 #### 5.1 Validação do Modelo Conceitual
-    [Grupo01]: [Nomes dos que participaram na avaliação]
-    [Grupo02]: [Nomes dos que participaram na avaliação]
+    [Grupo01]: Controle de frequência de Alunos
+    [Grupo02]: Aquário inteligente
 
 #### 5.2 DECISÕES DE PROJETO
     a) Tabela Enderecos: Optamos em nosso projeto por usar uma tabela com os endereços de cliente, por que um cliente ou funcionário poderá ter mais de um endereço vinculado ao seu cadastro, portanto no atributo ID_CLIENTE E ID_FUNCIONARIO temos a relação com cliente ou funcionário.
@@ -174,13 +171,12 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
     ESTADO: campo que armazena o estado do endereço.
     
 ### 6	MODELO LÓGICO<br>
-        a) inclusão do modelo lógico do banco de dados
-        b) verificação de correspondencia com o modelo conceitual 
-        (não serão aceitos modelos que não estejam em conformidade)
+        
+        ![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/modelo_logico_v2.png?raw=true "Modelo Lógico") 
 
 ### 7	MODELO FÍSICO<br>
-        a) inclusão das instruções de criacão das estruturas DDL 
-        (criação de tabelas, alterações, etc..)          
+        
+        ![Alt text](https://github.com/pulseirasaude/trab01/blob/master/scripts/create_table_v2.sql "Script de Criação  Tabelas")           
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
@@ -194,6 +190,9 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
         (em caso de falha na restauração o grupo não pontuará neste quesito)
         c) formato .SQL
 #### 8.3 INCLUSÃO DO SCRIPT PARA EXCLUSÃO DE TABELAS EXISTENTES, CRIAÇÃO DE TABELA NOVAS E INSERÇÃO DOS DADOS
+        
+                ![Alt text](https://github.com/pulseirasaude/trab01/blob/master/scripts/drop_table_script_v2.sql "Script de Deletar Tabelas")
+        
         a) Junção dos scripts anteriores em um único script
         (Drop para exclusão de tabelas + create para tabelas e estruturas de dados + dados a serem inseridos)
         b) Criar um novo banco de dados para testar a restauracao 
