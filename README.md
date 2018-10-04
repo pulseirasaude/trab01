@@ -24,7 +24,7 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 
-![Alt text](https://github.com/pulseirasaude/trab01/blob/master/Mockups/telainicial.png?raw=true "Title")
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/Mockups/download.png?raw=true "Title")
 [Arquivo PDF do Protótipo Balsamiq feito para o projeto Carga Pesada](https://github.com/pulseirasaude/trab01/blob/master/Mockups/Prototipo.pdf?raw=true "Carga Pesada")
 
 
