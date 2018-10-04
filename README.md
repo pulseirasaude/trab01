@@ -6,8 +6,9 @@ Trabalho desenvolvido durante a disciplina de BD1 no perído 2018/2 com o Profes
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
 Wallace Silva_de_Paula: wallacedpaula97@gmail.com<br>
-Leonardo_Sena: leosena1995@gmail.com<br>
-Willian_Vaneli: willianvaneli@gmail.com<br>
+Leonardo Sena: leosena1995@gmail.com<br>
+Willian Vaneli: willianvaneli@gmail.com<br>
+Matheus Aguiar: aguiar007ax@gmail.com<br>
 
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
