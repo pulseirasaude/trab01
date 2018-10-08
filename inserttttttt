@@ -22,7 +22,7 @@ insert into financiamento (valor_parcela,parcelas_totais,parcelas_pagas,financia
 	(5,550.00,48,20,'ITAU',5);
 	
 
-inset into motorista (id,cnh,data_vencimento,tipo,id_funcionário) values(
+inset into motorista (id,cnh,data_vencimento,categoria_cnh,id_funcionário) values(
 	1,123456,20/10/2018,'E',1),
 	(2,234567,30/02/2020,'D',2),
 	(3,345678,15/05/2021,'E',3),
