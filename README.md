@@ -198,7 +198,7 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
         c) formato .SQL
 #### 8.3 INCLUSÃO DO SCRIPT PARA EXCLUSÃO DE TABELAS EXISTENTES, CRIAÇÃO DE TABELA NOVAS E INSERÇÃO DOS DADOS
         
-[Script de Deletar Tabelas](https://github.com/pulseirasaude/trab01/blob/master/scripts/drop_table_script_v2.sql "Script de Deletar Tabelas")
+[Script de Deletar Tabelas](https://github.com/pulseirasaude/trab01/blob/master/scripts/consultas.sql "Script de Consultar Tabelas")
         
         a) Junção dos scripts anteriores em um único script
         (Drop para exclusão de tabelas + create para tabelas e estruturas de dados + dados a serem inseridos)
@@ -208,6 +208,7 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
 >## Marco de Entrega 03 em: (27/09/18) <br>
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
+    [Script de Consultas](https://github.com/pulseirasaude/trab01/blob/master/scripts/create_table_v2.sql "Script de Criação  Tabelas") 
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
