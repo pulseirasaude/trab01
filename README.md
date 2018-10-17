@@ -190,11 +190,9 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
 [Script de Inserção de Dados nas Tabelas](https://github.com/pulseirasaude/trab01/blob/master/scripts/insert_table_v2.sql "Script de Inserção de Dados nas Tabelas")
 
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELAS E INSERÇÃO DOS DADOS
-        a) Junção dos scripts anteriores em um único script 
-        (create para tabelas e estruturas de dados + dados a serem inseridos)
-        b) Criar um novo banco de dados para testar a restauracao 
-        (em caso de falha na restauração o grupo não pontuará neste quesito)
-        c) formato .SQL
+       
+[Script de Criação e Inserção de Dados nas Tabelas](https://github.com/pulseirasaude/trab01/blob/master/scripts/create_inserte_table.sql "Script de Criação e Inserção de Dados nas Tabelas")
+
 #### 8.3 INCLUSÃO DO SCRIPT PARA EXCLUSÃO DE TABELAS EXISTENTES, CRIAÇÃO DE TABELA NOVAS E INSERÇÃO DOS DADOS
         
 [Script de Deletar Tabelas](https://github.com/pulseirasaude/trab01/blob/master/scripts/drop_table_script_v2.sql "Script de Deletar Tabelas")
