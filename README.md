@@ -53,7 +53,7 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
 
 ### 5.MODELO CONCEITUAL<br>
         
-![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Conceito_CargaPesado_V2.png?raw=true "Modelo Conceitual")        
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Conceito_CargaPesado.png?raw=true "Modelo Conceitual")        
     
 #### 5.1 Validação do Modelo Conceitual
     [Grupo01]: Controle de frequência de Alunos
