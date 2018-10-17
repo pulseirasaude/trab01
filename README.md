@@ -77,8 +77,7 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
     CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.
     CNPJ: campo que armazena o número de Cadastro de Pessoa Juridica para cada cliente da empresa.
     DATA_CADASTRO: campo que armazena a data do cadastro do cliente na empresa.
-    DATA_NASCIMENTO: campo que armazena data de nascimento do cliente.
-
+   
     FUNCIONARIO: Tabela que armazena as informações relativas ao funcionário da empresa.
     NOME: campo que armazena o nome do funcionário.
     CPF: campo que armazena o número de Cadastro de Pessoa Física para cada funcionário da empresa.
@@ -91,7 +90,7 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
     MOTORISTA: Tabela que armazena as informações relativas ao motorista da empresa.
     CNH: campo que armazena a identificação da CNH do motorista.
     DATA_VENCIMENTO: campo que armazena o vencimento da CNH.
-    TIPO: campo que armazena o tipo da CNH.
+    CATEGORIA: campo que armazena o tipo da CNH.
     ID_FUNCIONARIO: campo que armazena a identificação que relaciona o motorista com suas informações como funcionario.
     
     CONTATO: Tabela que guarda contato do funcionario ou cliente.
