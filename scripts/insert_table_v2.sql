@@ -1,3 +1,4 @@
+
 insert into CATEGORIA (ID,NOME) values
 	(1,'Caminhao 2 eixos'),
 	(2,'Caminhao 3 eixos'),
@@ -19,12 +20,12 @@ insert into FUNCIONARIO (NOME, CPF, CARGO, SALARIO, SEXO, DATA_CADASTRO, DATA_NA
     ('Cleber','04598206055','MOTORISTA',2700.00,'M','2016-01-10','1987-06-16'),
     ('Jonathan','19793260025','MOTORISTA',4000.00,'M','2014-02-20','1990-01-12');
 
-insert into CLIENTE (NOME, TIPO_CLIENTE,CNPJ, CPF, DATA_CADASTRO, DATA_NASCIMENTO) values 	
-		('Jorge', 'A', '01.214.339/0001-53', '053.287.330-02', '2018-05-30', '1960-08-22'),
-		('Carlos', 'A', '33.457.141/0001-97', '641.167.660-70', '2018-07-25', '1980-03-15'),
-        ('Mateus', 'A', '76.711.710/0001-91', '317.281.670-27', '2018-04-19', '1965-02-22'),
-        ('Joao', 'A', '48.568.105/0001-78', '798.916.160-53', '2018-01-06', '1990-09-19'),
-        ('Douglas', 'A', '33.445.900/0001-00', '467.370.900-44', '2018-10-20', '1980-07-12');
+insert into CLIENTE (NOME, TIPO_CLIENTE,CNPJ, CPF, DATA_CADASTRO) values 	
+		('Jorge', 'A', '01.214.339/0001-53', '053.287.330-02', '2018-05-30'),
+		('Carlos', 'A', '33.457.141/0001-97', '641.167.660-70', '2018-07-25'),
+        ('Mateus', 'A', '76.711.710/0001-91', '317.281.670-27', '2018-04-19'),
+        ('Joao', 'A', '48.568.105/0001-78', '798.916.160-53', '2018-01-06'),
+        ('Douglas', 'A', '33.445.900/0001-00', '467.370.900-44', '2018-10-20');
 
     
 insert into CONTATO (TELEFONE_01, TELEFONE_02, TELEFONE_03, EMAIL) values 
