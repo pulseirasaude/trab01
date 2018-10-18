@@ -47,7 +47,7 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
     e deve ser criada antes do modelo conceitual
     c) Após criada esta tabela não deve ser modificada, pois será comparada com os resultados finais na conclusão do trabalho
     
-[Exemplo de Tabela de dados do Carga Pesada](https://github.com/discipbd1/trab01/blob/master/tab_un_1.ods "Tabela - Carga Pesada")
+[Exemplo de Tabela de dados do Carga Pesada](https://github.com/pulseirasaude/trab01/blob/master/tab_un_1.ods "Tabela - Carga Pesada")
     
 >## Marco de Entrega 01 em: (06/09/2018)<br>
 
