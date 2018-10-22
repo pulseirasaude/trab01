@@ -73,107 +73,107 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
     [objeto]: [descrição do objeto]
     
     CLIENTE: Tabela que armazena as informações relativas ao cliente
-    NOME: campo que armazena o nome do cliente.
-    CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.
-    CNPJ: campo que armazena o número de Cadastro de Pessoa Juridica para cada cliente da empresa.
-    DATA_CADASTRO: campo que armazena a data do cadastro do cliente na empresa.
+    nome: campo que armazena o nome do cliente.
+    cpf: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.
+    cnpj: campo que armazena o número de Cadastro de Pessoa Juridica para cada cliente da empresa.
+    data_cadastro: campo que armazena a data do cadastro do cliente na empresa.
    
     FUNCIONARIO: Tabela que armazena as informações relativas ao funcionário da empresa.
-    NOME: campo que armazena o nome do funcionário.
-    CPF: campo que armazena o número de Cadastro de Pessoa Física para cada funcionário da empresa.
-    CARGO: campo que armazena o cargo ocupado pelo funcionário da empresa.
-    SALARIO: campo que armazena o salário do funcionário da empresa.
-    SEXO: campo que armazena o sexo do funcionário da empresa.
-    DATA_CADASTRO: campo que armazena a data de entrada do funcionário da empresa.
-    DATA_NASCIMENTO: campo que armazena a data de nascimento do funcionário da empresa.
+    nome: campo que armazena o nome do funcionário.
+    cpf: campo que armazena o número de Cadastro de Pessoa Física para cada funcionário da empresa.
+    cargo: campo que armazena o cargo ocupado pelo funcionário da empresa.
+    salario: campo que armazena o salário do funcionário da empresa.
+    sexo: campo que armazena o sexo do funcionário da empresa.
+    data_cadastro: campo que armazena a data de entrada do funcionário da empresa.
+    data_nascimento: campo que armazena a data de nascimento do funcionário da empresa.
     
     MOTORISTA: Tabela que armazena as informações relativas ao motorista da empresa.
-    CNH: campo que armazena a identificação da CNH do motorista.
-    DATA_VENCIMENTO: campo que armazena o vencimento da CNH.
-    CATEGORIA: campo que armazena o tipo da CNH.
-    ID_FUNCIONARIO: campo que armazena a identificação que relaciona o motorista com suas informações como funcionario.
+    cnh: campo que armazena a identificação da CNH do motorista.
+    data_vencimento: campo que armazena o vencimento da CNH.
+    categoria: campo que armazena o tipo da CNH.
+    id_funcionario: campo que armazena a identificação que relaciona o motorista com suas informações como funcionario.
     
     CONTATO: Tabela que guarda contato do funcionario ou cliente.
-    TELEFONE_01: Campo que armazena numero do telefone do funcionario ou cliente. 
-    TELEFONE_02: Campo que armazena numero do telefone do funcionario ou cliente.
-    TELEFONE_03: Campo que armazena numero do telefone do funcionario ou cliente.
-    EMAIL: Campo que armazena email do funcionario ou cliente.
+    telefone_01: Campo que armazena numero do telefone do funcionario ou cliente. 
+    telefone_02: Campo que armazena numero do telefone do funcionario ou cliente.
+    telefone_03: Campo que armazena numero do telefone do funcionario ou cliente.
+    email: Campo que armazena email do funcionario ou cliente.
       
     ENDERECO: Tabela que guarda endereço do funcionario ou cliente.
-    ENDERECO: campo que armazena o nome do endereço.
-    LOGRADOURO: campo que armazena o logradouro do endereço.
-    NUMERO: campo que armazena o número do endereço.
-    CEP: campo que armazena o cep do endereço.
-    COMPLEMENTO: campo que armazena o complemento do endereço.
-    CIDADE: campo que armazena a cidade do endereço.
-    ESTADO: campo que armazena o estado do endereço.
+    endereco: campo que armazena o nome do endereço.
+    logradouro: campo que armazena o logradouro do endereço.
+    numero: campo que armazena o número do endereço.
+    cep: campo que armazena o cep do endereço.
+    complemento: campo que armazena o complemento do endereço.
+    cidade: campo que armazena a cidade do endereço.
+    estado: campo que armazena o estado do endereço.
        
     CATEGORIA: Tabela que armazena a categoria do veiculo.
-    NOME: campo que armazena nome da categoria do veiculo.
-    MODELO: Tabela que guarda modelo do veiculo.
-    MODELO: campo que armazena o modelo do veiculo.
-    MARCA: campo que armazena a marca do veiculo.
-    ANO: campo que armazena o ano do veiculo.
-    EIXO: campo que armazena quantos eixos o veiculo tem.
-    PESO: campo que armazena o peso do veiculo.
-    ALTURA: campo que armazena a altura do veiculo.
-    LARGURA: campo que armazena a largura do veiculo.
-    COMPRIMENTO: campo que armazena o comprimento do veiculo.
-    COR: campo que armazena a cor do veiculo.
+    nome: campo que armazena nome da categoria do veiculo.
+    modelo: Tabela que guarda modelo do veiculo.
+    modelo: campo que armazena o modelo do veiculo.
+    marca: campo que armazena a marca do veiculo.
+    ano: campo que armazena o ano do veiculo.
+    eixo: campo que armazena quantos eixos o veiculo tem.
+    peso: campo que armazena o peso do veiculo.
+    altura: campo que armazena a altura do veiculo.
+    largura: campo que armazena a largura do veiculo.
+    comprimento: campo que armazena o comprimento do veiculo.
+    cor: campo que armazena a cor do veiculo.
     
     VEICULO: Tabela que guarda informações do veiculo.
-    NOME: campo que armazena o nome do veiculo.
-    CHASSI: campo que armazena o chassi do veiculo.
-    PLACA: campo que armazena a placa do veiculo.
-    STATUS: campo que armazena o status do veiculo.
-    COMBUSTIVEL: campo que armazena o tipo do combustivel do veiculo.
-    ID_CATEGORIA: campo que armazena a identificação que relaciona o veiculo com sua categoria.
-    ID_MODELO: campo que armazena a identificação que relaciona o veiculo com seu modelo.
-    ID_MOTORISTA: campo que armazena a identificação que relaciona o veiculo com seu motorista.
+    nome: campo que armazena o nome do veiculo.
+    chassi: campo que armazena o chassi do veiculo.
+    placa: campo que armazena a placa do veiculo.
+    status: campo que armazena o status do veiculo.
+    combustivel: campo que armazena o tipo do combustivel do veiculo.
+    id_categoria: campo que armazena a identificação que relaciona o veiculo com sua categoria.
+    id_modelo: campo que armazena a identificação que relaciona o veiculo com seu modelo.
+    id_motorista: campo que armazena a identificação que relaciona o veiculo com seu motorista.
     
     SEGURO: Tabela que armazena informações sobre o seguro do veiculo.
-    STATUS: campo que armazena status do seguro.
-    DATA_VENCIMENTO: campo que armazena data do vencimento de cada parcela do seguro.
-    FIM_CONTRATO: campo que armazena data do vencimento do contrato do seguro.
-    ID_VEICULO: campo que armazena a identificação que relaciona o seguro com respectivo veiculo.
+    status: campo que armazena status do seguro.
+    data_vencimento: campo que armazena data do vencimento de cada parcela do seguro.
+    fim_contrato: campo que armazena data do vencimento do contrato do seguro.
+    id_veiculo: campo que armazena a identificação que relaciona o seguro com respectivo veiculo.
     
     FINANCIAMENTO: Tabela que armazena informações sobre o financiamento de veiculos.
-    VALOR_PARCELAS: campo que armazena o valor das parcelas do financiamento.
-    PARCELAS_TOTAIS: campo que armazena a quantidade de parcelas do financiamento.
-    PARCELAS_PAGAS: campo que armazena a quantidade de parcelas pagas do financiamento.
-    FINANCIADOR: campo que armazena o financiador do financiamento.
-    ID_VEICULO: campo que armazena a identificação que relaciona o financiamento com respectivo veiculo.
+    valor_parcelas: campo que armazena o valor das parcelas do financiamento.
+    parcelas_totais: campo que armazena a quantidade de parcelas do financiamento.
+    parcelas_pagas: campo que armazena a quantidade de parcelas pagas do financiamento.
+    financiador: campo que armazena o financiador do financiamento.
+    id_veiculo: campo que armazena a identificação que relaciona o financiamento com respectivo veiculo.
     
     SERVICO: Tabela que armazena informações sobre serviço.
-    STATUS: campo que armazena o status do serviço.
-    VALOR_CONTRATO: campo que armazena o valor do contrato.
-    DATA_INICIO: campo que armazena a data inicio do contrato.
-    DATA_FIM: campo que armazena a data fim do contrato.
-    ID_CLIENTE: campo que armazena a identificação que relaciona o serviço com respectivo cliente.
-    ID_FUNCIONARIO: campo que armazena a identificação que relaciona o serviço com respectivo funcionario.
-    ID_VEICULO: campo que armazena a identificação que relaciona o serviço com respectivo veiculo.
-    ID_ENDERECO_ORIGEM: campo que armazena a identificação que relaciona o serviço com respectivo endereço de origem.
-    ID_ENDERECO_DESTINO: campo que armazena a identificação que relaciona o serviço com respectivo endereço de destino.
+    status: campo que armazena o status do serviço.
+    valor_contrato: campo que armazena o valor do contrato.
+    data_inicio: campo que armazena a data inicio do contrato.
+    data_fim: campo que armazena a data fim do contrato.
+    id_cliente: campo que armazena a identificação que relaciona o serviço com respectivo cliente.
+    id_funcionario: campo que armazena a identificação que relaciona o serviço com respectivo funcionario.
+    id_veiculo: campo que armazena a identificação que relaciona o serviço com respectivo veiculo.
+    id_endereco_origem: campo que armazena a identificação que relaciona o serviço com respectivo endereço de origem.
+    id_endereco_destino: campo que armazena a identificação que relaciona o serviço com respectivo endereço de destino.
     
     ENDERECO SERVICO: Tabela que armazena e relaciona os serviços com os seus respectivos endereços.
-    TIPO: campo que armazena o tipo de endereço (O-Origem / D-Destino)
-    ID_ENDERECO: campo que armazena o id do endereco.
+    tipo: campo que armazena o tipo de endereço (O-Origem / D-Destino)
+    id_endereco: campo que armazena o id do endereco.
     
     ENDERECO FUNCIONARIO: Tabela que armazena e relaciona o funconairo com o seu respectivo endereço.
-    ID_ENDERECO: campo que armazena o id do endereco
-    ID_FUNCIONARIO: campo que armazena o id do funcionario.
+    id_endereco: campo que armazena o id do endereco
+    id_funcionario: campo que armazena o id do funcionario.
     
     ENDERECO CLIENTE: Tabela que armazena e relaciona o cliente com o(s) seu(s) respectivo(s) endereço(s).
-    ID_ENDEREÇO: campo que armazena o id do endereco.
-    ID_FUNCIONARIO: campo que armazena o id do funcionario.
+    id_endereco: campo que armazena o id do endereco.
+    id_funcionario: campo que armazena o id do funcionario.
     
     CONTATO FUNCIONARIO: Tabela que armazena e relaciona o funcionario com o seu contato.
-    ID_CONTATO: campo que armazena o id do contato.
-    ID_FUNCIONARIO: campo que armazena o id do funcionario.
+    id_contrato: campo que armazena o id do contato.
+    id_funcionario: campo que armazena o id do funcionario.
     
     CONTATO CLIENTE: Tabela que armazena e relaciona o o funcionario com o seu contato.
-    ID_CONTATO: campo que armazena o id do contato.
-    ID_CLIENTE: campo que armazena o id do cliente.
+    id_contato: campo que armazena o id do contato.
+    id_cliente: campo que armazena o id do cliente.
     
     
 ### 6	MODELO LÓGICO<br>
