@@ -178,7 +178,7 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
     
 ### 6	MODELO LÓGICO<br>
 
-![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/modelo_logico_v2.png?raw=true "Modelo Lógico") 
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/modelo_logico.png?raw=true "Modelo Lógico") 
 
 ### 7	MODELO FÍSICO<br>
         
