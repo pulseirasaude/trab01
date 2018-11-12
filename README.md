@@ -154,26 +154,11 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
     id_veiculo: campo que armazena a identificação que relaciona o serviço com respectivo veiculo.
     id_endereco_origem: campo que armazena a identificação que relaciona o serviço com respectivo endereço de origem.
     id_endereco_destino: campo que armazena a identificação que relaciona o serviço com respectivo endereço de destino.
-    
-    ENDERECO SERVICO: Tabela que armazena e relaciona os serviços com os seus respectivos endereços.
-    tipo: campo que armazena o tipo de endereço (O-Origem / D-Destino)
-    id_endereco: campo que armazena o id do endereco.
-    
-    ENDERECO FUNCIONARIO: Tabela que armazena e relaciona o funconairo com o seu respectivo endereço.
-    id_endereco: campo que armazena o id do endereco
-    id_funcionario: campo que armazena o id do funcionario.
-    
-    ENDERECO CLIENTE: Tabela que armazena e relaciona o cliente com o(s) seu(s) respectivo(s) endereço(s).
+       
+    ENDERECO PESSOA: Tabela que armazena e relaciona o cliente com o(s) seu(s) respectivo(s) endereço(s).
     id_endereco: campo que armazena o id do endereco.
     id_funcionario: campo que armazena o id do funcionario.
-    
-    CONTATO FUNCIONARIO: Tabela que armazena e relaciona o funcionario com o seu contato.
-    id_contrato: campo que armazena o id do contato.
-    id_funcionario: campo que armazena o id do funcionario.
-    
-    CONTATO CLIENTE: Tabela que armazena e relaciona o o funcionario com o seu contato.
-    id_contato: campo que armazena o id do contato.
-    id_cliente: campo que armazena o id do cliente.
+   
     
     
 ### 6	MODELO LÓGICO<br>
