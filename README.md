@@ -199,10 +199,9 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
 >## Marco de Entrega 03 em: (27/09/18) <br>
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
-   [Script de Consultas](https://github.com/pulseirasaude/trab01/blob/master/scripts/consultas.sql "Script de Consultar  Tabelas") 
-   
    OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
+   [Script de Select Tables](https://github.com/pulseirasaude/trab01/blob/master/scripts/select_table.sql "Script de Select Tables") <br>
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
     a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not
