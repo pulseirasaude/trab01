@@ -36,7 +36,7 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
 > A Empresa Carga Pesada precisa inicialmente dos seguintes relatórios:
 * Relarótio de veiculos disponíveis incluindo as seguintes informações: id do veiculo, nome do veiculo, tipo do veiculo e status do veiculo.
 * Relatório de funcionários disponíveis incluindo as seguintes informações: id do funcionário, nome do funcionário e status do funcionário.
-* Relatório de finanças incluindo as seguintes informações: Entradas, saídas e balanço.
+* Relatório de salários dos funcionários incluindo as seguintes informações: nome do funcionário, salário do funcionário.
 * Relatório de veículos alienados: id do veiculo, nome do veiculo, tipo do veiculo, valor parcela e parcelas restantes.
 * Relatório de serviço por periodo incluindo as seguintes informações: id serviço, cliente , status.
  
