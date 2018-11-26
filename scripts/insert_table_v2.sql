@@ -1,11 +1,3 @@
-
-insert into CATEGORIA (ID,NOME) values
-	(1,'Caminhao 2 eixos'),
-	(2,'Caminhao 3 eixos'),
-	(3,'Caminhao 4 eixos'),
-	(4,'Mini Van'),
-	(5,'Seda');
-	
 insert into ESTADO (SIGLA,NOME) VALUES 
 	('ES', 'ESPIRITO SANTO'),
 	('RJ', 'RIO DE JANEIRO'),
