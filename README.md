@@ -203,6 +203,8 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
    [Script com Like e date](https://github.com/pulseirasaude/trab01/blob/master/scripts/consulta_like_date.sql "Script com Like e date")
 
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
+   
+   [Script de atualização e exclusão de dados](https://github.com/pulseirasaude/trab01/blob/master/scripts/update_delete.sql "Script de atualização e exclusão de dados")
 
 >## Marco de Entrega 04 em: (18/10/2017)<br>
 
