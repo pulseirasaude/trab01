@@ -37,7 +37,7 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
 * Relarótio de veiculos disponíveis incluindo as seguintes informações: id do veiculo, nome do veiculo, categoria do veiculo e status do veiculo.
 * Relatório de motoristas e suas CNHs incluindo as seguintes informações: id do motorista, nome do motorista, numero da cnh, categoria e data de vencimento da mesma.
 * Relatório de salários dos funcionários incluindo as seguintes informações: nome do funcionário, salário do funcionário.
-* Relatório de veículos alienados: id do veiculo, nome do veiculo, categoria do veiculo, valor parcela e parcelas restantes.
+* Relatório informando a quantidades de serviços por tipo de carga incluindo as seguintes informações: tipo da carga e a quantidade de serviços do tipo de carga.
 * Relatório de serviço por periodo incluindo as seguintes informações: id serviço, cliente , status.
  
  
