@@ -193,6 +193,9 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
     a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not
     b) Criar no mínimo 3 consultas com operadores aritméticos 
     c) Criar no mínimo 3 consultas com operação de renomear nomes de campos ou tabelas
+    
+   [Script com Operadores](https://github.com/pulseirasaude/trab01/blob/master/scripts/script_operadores.sql "Script com Operadores")
+
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
     a) Criar outras 5 consultas que envolvam like ou ilike
     b) Criar uma consulta para cada tipo de função data apresentada.
