@@ -199,6 +199,8 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
     a) Criar outras 5 consultas que envolvam like ou ilike
     b) Criar uma consulta para cada tipo de função data apresentada.
+   
+   [Script com Like e date](https://github.com/pulseirasaude/trab01/blob/master/scripts/consulta_like_date.sql "Script com Like e date")
 
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
 
