@@ -372,15 +372,15 @@ VALUES ('R','RUA'),
 	
 INSERT INTO ENDERECO (ENDERECO, NUMERO, CEP, COMPLEMENTO, ID_ESTADO, ID_LOGRADOURO)
 VALUES ('Rua Jorge Amado', 281, '97065-211', 'Sala 502', 1, 1),
-	   ('Avenida Moacir Braga Coutinho', 1500, '68905-820', 'Galpão 3', 2, 2),
-	   ('Rua Perimetral Quatro', 140, '68905-820', 'Apto. 802', 3, 1),
-	   ('Rua José Silvério da Silva', 3000, '74953-610', 'Apto. 1002', 4, 1),
-	   ('Rua Antônio Escorsin', 281, '64033-550', 'Apto. 202', 1, 1),
-	   ('Rua José Silvério da Silva', 4254, '74730515', 'Sala 21',2, 1),
-	   ('Rua Pedro Ardêmio Hilgert', 123, '92310-560', 'Hangar 5',3, 1),
-	   ('Rua Ary Lopes Moreira', 2837, '27524-112', 'Galpão 66',4, 1),
-	   ('Rua Cristalina', 1928, '26298-213', 'Apto. 304',1, 1),
-	   ('Rua Joaquim Mesquita Filho', 183, '58037-205', 'Sala 111', 2, 1);
+	   ('Moacir Braga Coutinho', 1500, '68905-820', 'Galpão 3', 2, 2),
+	   ('Perimetral Quatro', 140, '68905-820', 'Apto. 802', 3, 1),
+	   ('José Silvério da Silva', 3000, '74953-610', 'Apto. 1002', 4, 1),
+	   ('Antônio Escorsin', 281, '64033-550', 'Apto. 202', 1, 1),
+	   ('José Silvério da Silva', 4254, '74730515', 'Sala 21',2, 1),
+	   ('Pedro Ardêmio Hilgert', 123, '92310-560', 'Hangar 5',3, 1),
+	   ('Ary Lopes Moreira', 2837, '27524-112', 'Galpão 66',4, 1),
+	   ('Cristalina', 1928, '26298-213', 'Apto. 304',1, 1),
+	   ('Joaquim Mesquita Filho', 183, '58037-205', 'Sala 111', 2, 1);
 
 INSERT INTO ENDERECO_PESSOA (ID_ENDERECO, ID_PESSOA)
 VALUES 	(1, 1),
