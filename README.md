@@ -228,6 +228,8 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
    [Script consulta self join e view](https://github.com/pulseirasaude/trab01/blob/master/scripts/consulta_selfjoin_view.sql "Script consulta self join e view")
         
 #### 9.10	SUBCONSULTAS (Mínimo 3)<br>
+   [Script subconsulta](https://github.com/pulseirasaude/trab01/blob/master/scripts/subconsulta.sql "Script subconsulta")
+
 ### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)<br>
 
 ### 11 Backup completo do banco de dados postgres 
