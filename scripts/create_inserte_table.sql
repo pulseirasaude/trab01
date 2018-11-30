@@ -372,15 +372,15 @@ VALUES ('R','RUA'),
 	
 INSERT INTO ENDERECO (ENDERECO, NUMERO, CEP, COMPLEMENTO, ID_ESTADO, ID_LOGRADOURO)
 VALUES ('Rua Jorge Amado', 281, '97065-211', 'Sala 502', 1, 1),
-	   ('Moacir Braga Coutinho', 1500, '68905-820', 'Galpão 3', 2, 2),
-	   ('Perimetral Quatro', 140, '68905-820', 'Apto. 802', 3, 1),
-	   ('José Silvério da Silva', 3000, '74953-610', 'Apto. 1002', 4, 1),
-	   ('Antônio Escorsin', 281, '64033-550', 'Apto. 202', 1, 1),
-	   ('José Silvério da Silva', 4254, '74730515', 'Sala 21',2, 1),
-	   ('Pedro Ardêmio Hilgert', 123, '92310-560', 'Hangar 5',3, 1),
-	   ('Ary Lopes Moreira', 2837, '27524-112', 'Galpão 66',4, 1),
-	   ('Cristalina', 1928, '26298-213', 'Apto. 304',1, 1),
-	   ('Joaquim Mesquita Filho', 183, '58037-205', 'Sala 111', 2, 1);
+	   ('Avenida Moacir Braga Coutinho', 1500, '68905-820', 'Galpão 3', 2, 2),
+	   ('Rua Perimetral Quatro', 140, '68905-820', 'Apto. 802', 3, 1),
+	   ('Rua José Silvério da Silva', 3000, '74953-610', 'Apto. 1002', 4, 1),
+	   ('Rua Antônio Escorsin', 281, '64033-550', 'Apto. 202', 1, 1),
+	   ('Rua José Silvério da Silva', 4254, '74730515', 'Sala 21',2, 1),
+	   ('Rua Pedro Ardêmio Hilgert', 123, '92310-560', 'Hangar 5',3, 1),
+	   ('Rua Ary Lopes Moreira', 2837, '27524-112', 'Galpão 66',4, 1),
+	   ('Rua Cristalina', 1928, '26298-213', 'Apto. 304',1, 1),
+	   ('Rua Joaquim Mesquita Filho', 183, '58037-205', 'Sala 111', 2, 1);
 
 INSERT INTO ENDERECO_PESSOA (ID_ENDERECO, ID_PESSOA)
 VALUES 	(1, 1),
@@ -476,10 +476,10 @@ VALUES ('Tempest', '9UK64ED50D0015277', 'MUN-6778', 2, 1, 2, 1),
 	   ('Soha', '9UK64ED50D0015473', 'HQE-4878', 3, 5, 2, 10);
 
 INSERT INTO MOTORISTA_VEICULO(DATA_INICIO, DATA_FIM, ID_MOTORISTA, ID_VEICULO)
-VALUES ('2018-10-15', '2018-10-30', 1, 7),
-	   ('2018-09-1', '2018-09-07', 2, 8),
-	   ('2018-10-7', '2018-10-21', 3, 9),
-	   ('2018-11-1', '2018-11-14', 4, 10);
+VALUES ('2018-10-15', '2018-10-30', 1, 1),
+	   ('2018-09-1', '2018-09-07', 2, 3),
+	   ('2018-10-7', '2018-10-21', 3, 4),
+	   ('2018-11-1', '2018-11-14', 4, 5);
 
 INSERT INTO TRANSPORTE (VALOR_CONTRATO, DATA_INICIO, DATA_FIM, ID_STATUS, ID_TIPO_CARGA, ID_CLIENTE, ID_FUNCIONARIO, ID_VEICULO, ID_ENDERECO_ORIGEM, ID_ENDERECO_DESTINO)
 VALUES (1000.00, '2018-01-01', '2018-02-02', 1, 2, 7, 1, 1, 1, 2),
