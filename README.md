@@ -224,6 +224,9 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
         a) Uma junção que envolva Self Join
         b) Outras junções com views que o grupo considere como sendo de relevante importância para o trabalho
+        
+   [Script consulta self join e view](https://github.com/pulseirasaude/trab01/blob/master/scripts/consulta_selfjoin_view.sql "Script consulta self join e view")
+        
 #### 9.10	SUBCONSULTAS (Mínimo 3)<br>
 ### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)<br>
 
