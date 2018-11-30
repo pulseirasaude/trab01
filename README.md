@@ -215,7 +215,7 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
    [Script consulta com join e ordenação](https://github.com/pulseirasaude/trab01/blob/master/scripts/jconsulta_join.sql "Script consulta com join e ordenação")
         
 #### 9.7	CONSULTAS COM GROUP BY E FUNÇÕES DE AGRUPAMENTO (Mínimo 6)<br>
-   [Script consulta com groupby e funções de agrupamento](https://github.com/pulseirasaude/trab01/blob/master/scripts/consulta_groupby.sql "Script consulta com groupby e funções de agrupamento")
+   [Script consulta com groupby e funções de agrupamento](https://github.com/pulseirasaude/trab01/blob/master/scripts/consulta_grouby.sql "Script consulta com groupby e funções de agrupamento")
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
         a) Uma junção que envolva Self Join
