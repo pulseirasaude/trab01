@@ -57,7 +57,7 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
 #### 5.2 DECISÕES DE PROJETO
    a) Tabela Enderecos: Optamos em nosso projeto por usar uma tabela com os endereços, por que uma pessoa poderá ter mais de um endereço alem de poder existir endereços sem vinculo com pessoas apenas para os transportes; <br>
    b) Na tabela Contato decidimos deixar ela dinamina podendo uma pessoa ter varios contato de acordo com o tipo escolhido;<br>
- g) Decidimos criar a tabela MODELO para distinguir variações entre modelos de um mesmo tipo de veiculo, essas informações sobre o veiculo são importantes para as notas fiscais. <br>
+ c) Decidimos criar a tabela MODELO para distinguir variações entre modelos de um mesmo tipo de veiculo, essas informações sobre o veiculo são importantes para as notas fiscais. <br>
 
 >## Marco de Entrega 02 em: (17/09/2018)<br>
 #### 5.3 DESCRIÇÃO DOS DADOS 
