@@ -353,6 +353,39 @@ Tipo de carga <br>
 
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
    [Script com Operadores](https://github.com/pulseirasaude/trab01/blob/master/scripts/script_operadores.sql "Script com Operadores")
+  
+  Query 01 <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query3_01.PNG?raw=true "Title") <br>
+   
+   Query 02 <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query3_02.PNG?raw=true "Title") <br>
+
+   Query 03 <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query3_03.PNG?raw=true "Title") <br>
+
+   Query 04 <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query3_04.PNG?raw=true "Title") <br>
+
+  Query 05 <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query3_05.PNG?raw=true "Title") <br>
+   
+   Query 06 <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query3_06.PNG?raw=true "Title") <br>
+
+   Query 07 <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query3_07.PNG?raw=true "Title") <br>
+
+   Query 08 <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query3_08.PNG?raw=true "Title") <br>
+
+  Query 09 <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query3_09.PNG?raw=true "Title") <br>
+   
+   Query 10 <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query3_10.PNG?raw=true "Title") <br>
+
+   Query 11 <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query3_11.PNG?raw=true "Title") <br>
 
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
     a) Criar outras 5 consultas que envolvam like ou ilike
