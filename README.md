@@ -489,8 +489,8 @@ Tipo de carga <br>
 
 [Script consulta com left e right join](https://github.com/pulseirasaude/trab01/blob/master/scripts/consulta_left_right.sql "Script consulta com left e right join")
 
-Query 01 <br>
-![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Que8y3_01.PNG?raw=true "Title") <br>
+   Query 01 <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query8_01.PNG?raw=true "Title") <br>
    
    Query 02 <br>
 ![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query8_02.PNG?raw=true "Title") <br>
