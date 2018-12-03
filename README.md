@@ -542,10 +542,7 @@ Tipo de carga <br>
 ### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)<br>
 
 ### 11 Backup completo do banco de dados postgres 
-    a) deve ser realizado no formato "backup" 
-        (Em Dump Options #1 Habilitar opções Don't Save Owner e Privilege)
-    b) antes de postar o arquivo no git o mesmo deve ser testado/restaurado por outro grupo de alunos/dupla
-    c) informar aqui o grupo de alunos/dupla que realizou o teste.
+[Arquivo de backup do banco](https://github.com/pulseirasaude/trab01/blob/master/scripts/backup_cargapesada?raw=true "Carga Pesada")
 
 ### 12	TUTORIAL COMPLETO DE PASSOS PARA RESTAURACAO DO BANCO E EXECUCAO DE PROCEDIMENTOS ENVOLVIDOS NO TRABALHO PARA OBTENÇÃO DOS RESULTADOS<br>
         a) Outros grupos deverão ser capazes de restaurar o banco 
