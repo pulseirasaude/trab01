@@ -532,6 +532,8 @@ Tipo de carga <br>
 
 ### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)<br>
 
+[Slides de apresentação](https://github.com/pulseirasaude/trab01/blob/master/Slides.pdf?raw=true "Carga Pesada")
+
 ### 11 Backup completo do banco de dados postgres 
 [Arquivo de backup do banco](https://github.com/pulseirasaude/trab01/blob/master/scripts/backup_cargapesada?raw=true "Carga Pesada")
 
