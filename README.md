@@ -388,10 +388,46 @@ Tipo de carga <br>
 ![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query3_11.PNG?raw=true "Title") <br>
 
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
-    a) Criar outras 5 consultas que envolvam like ou ilike
-    b) Criar uma consulta para cada tipo de função data apresentada.
-   
+
    [Script com Like e date](https://github.com/pulseirasaude/trab01/blob/master/scripts/consulta_like_date.sql "Script com Like e date")
+   
+    
+  Query 01 <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query4_01.PNG?raw=true "Title") <br>
+   
+   Query 02 <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query4_02.PNG?raw=true "Title") <br>
+
+   Query 03 <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query_03.PNG?raw=true "Title") <br>
+
+   Query 04 <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query4_04.PNG?raw=true "Title") <br>
+
+  Query 05 <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query4_05.PNG?raw=true "Title") <br>
+   
+   Query 06 <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query4_06.PNG?raw=true "Title") <br>
+
+   Query 07 <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query4_07.PNG?raw=true "Title") <br>
+
+   Query 08 <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query4_08.PNG?raw=true "Title") <br>
+
+  Query 09 <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query4_09.PNG?raw=true "Title") <br>
+   
+   Query 10 <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query4_10.PNG?raw=true "Title") <br>
+
+   Query 11 <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query4_11.PNG?raw=true "Title") <br>
+   
+   Query 12 <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query4_12.PNG?raw=true "Title") <br>
+
 
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
    
