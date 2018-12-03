@@ -503,10 +503,27 @@ Tipo de carga <br>
 
 
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
-        a) Uma junção que envolva Self Join
-        b) Outras junções com views que o grupo considere como sendo de relevante importância para o trabalho
-        
+       
    [Script consulta self join e view](https://github.com/pulseirasaude/trab01/blob/master/scripts/consulta_selfjoin_view.sql "Script consulta self join e view")
+   
+   Query 01 <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query9_01.PNG?raw=true "Title") <br>
+   
+   Query 02 <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query9_02.PNG?raw=true "Title") <br>
+
+   Query 03 <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query9_03.PNG?raw=true "Title") <br>
+
+   Query 04 <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query9_04.PNG?raw=true "Title") <br>
+
+  Query 05 <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query9_05.PNG?raw=true "Title") <br>
+   
+   Query 06 <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query9_06.PNG?raw=true "Title") <br>
+
         
 #### 9.10	SUBCONSULTAS (Mínimo 3)<br>
    [Script subconsulta](https://github.com/pulseirasaude/trab01/blob/master/scripts/subconsulta.sql "Script subconsulta")
