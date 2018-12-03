@@ -254,8 +254,86 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
    OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
    [Script de Select Tables](https://github.com/pulseirasaude/trab01/blob/master/scripts/select_table.sql "Script de Select Tables")<br>
+   
    Pessoas <br>
    ![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query01_pessoa.PNG?raw=true "Title") <br>
+   
+   Pessoa Fisica <br>
+   ![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query01_ps_fisica.PNG?raw=true "Title") <br>
+    <br>
+    
+    Pessoa Juridica <br> 
+    ![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query01_ps_juridica.PNG?raw=true "Title") <br>
+    
+    Tipo Contato <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query01_tipo_contato?raw=true "Title") <br>
+
+Contato <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query01_contato.PNG?raw=true "Title") <br>
+
+Endereço por pessoa <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query01_endreço_pessoa.PNG?raw=true "Title") <br>
+
+Endereço <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query01_ps_juridica.PNG?raw=true "Title") <br>
+
+Logradouro <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query01_log.PNG?raw=true "Title") <br>
+
+Estado <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query01_estado.PNG?raw=true "Title") <br>
+
+Cidade <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query01_cidades.PNG?raw=true "Title") <br>
+
+Bairro <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query01_bairros.PNG?raw=true "Title") <br>
+
+Funcionario <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query01_funcionarios.PNG?raw=true "Title") <br>
+
+Motoristas <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query01_motorista.PNG?raw=true "Title") <br>
+
+Tipo CNH <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query01_catego_cnh.PNG?raw=true "Title") <br>
+
+Veiculo por Motorista <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query01_motorista_veculo.PNG?raw=true "Title") <br>
+
+Veiculo <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query01_veiculos.PNG?raw=true "Title") <br>
+
+Categoria de veiculos <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query01_catego_veiculo.PNG?raw=true "Title") <br>
+
+Combustivel <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query01_combustivel.PNG?raw=true "Title") <br>
+
+Status Veiculo <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query01_sta_veiculo.PNG?raw=true "Title") <br>
+
+Modelo <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query01_modelo.PNG?raw=true "Title") <br>
+
+Cor <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query01_cor.PNG?raw=true "Title") <br>
+
+Eixos <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query01_eixos.PNG?raw=true "Title") <br>
+
+Marca <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query01_marca.PNG?raw=true "Title") <br>
+
+Transporte <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query01_transporte.PNG?raw=true "Title") <br>
+
+Status <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query01_sta_transporte.PNG?raw=true "Title") <br>
+
+Tipo de carga <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query01_tipo_carga.PNG?raw=true "Title") <br>
+
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
    [Script com filtro Where](https://github.com/pulseirasaude/trab01/blob/master/scripts/where_script.sql "Script com filtro Where")
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
