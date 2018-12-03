@@ -338,16 +338,16 @@ Tipo de carga <br>
    [Script com filtro Where](https://github.com/pulseirasaude/trab01/blob/master/scripts/where_script.sql "Script com filtro Where")
     
    Query 01 <br>
-![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query02_01.PNG?raw=true "Title") <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query2_01.PNG?raw=true "Title") <br>
    
    Query 02 <br>
-![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query02_02.PNG?raw=true "Title") <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query2_02.PNG?raw=true "Title") <br>
 
    Query 03 <br>
-![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query02_03.PNG?raw=true "Title") <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query2_03.PNG?raw=true "Title") <br>
 
    Query 04 <br>
-![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query02_04.PNG?raw=true "Title") <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query2_04.PNG?raw=true "Title") <br>
 
 
 
