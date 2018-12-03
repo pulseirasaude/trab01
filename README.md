@@ -466,6 +466,25 @@ Tipo de carga <br>
 #### 9.7	CONSULTAS COM GROUP BY E FUNÇÕES DE AGRUPAMENTO (Mínimo 6)<br>
 
    [Script consulta com groupby e funções de agrupamento](https://github.com/pulseirasaude/trab01/blob/master/scripts/consulta_grouby.sql "Script consulta com groupby e funções de agrupamento")
+   
+   Query 01 <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query7_01.PNG?raw=true "Title") <br>
+   
+   Query 02 <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query7_02.PNG?raw=true "Title") <br>
+
+   Query 03 <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query7_03.PNG?raw=true "Title") <br>
+
+   Query 04 <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query7_04.PNG?raw=true "Title") <br>
+
+  Query 05 <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query7_05.PNG?raw=true "Title") <br>
+   
+   Query 06 <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query7_06.PNG?raw=true "Title") <br>
+
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
 
 [Script consulta com left e right join](https://github.com/pulseirasaude/trab01/blob/master/scripts/consulta_left_right.sql "Script consulta com left e right join")
