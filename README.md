@@ -262,17 +262,17 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
    ![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query01_ps_fisica.PNG?raw=true "Title") <br>
     <br>
     
-    Pessoa Juridica <br> 
-    ![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query01_ps_juridica.PNG?raw=true "Title") <br>
+   Pessoa Juridica <br> 
+   ![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query01_ps_juridica.PNG?raw=true "Title") <br>
     
-    Tipo Contato <br>
-![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query01_tipo_contato?raw=true "Title") <br>
+   Tipo Contato <br>
+    ![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query01_tipo_contato?raw=true "Title") <br>
 
 Contato <br>
 ![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query01_contato.PNG?raw=true "Title") <br>
 
 Endereço por pessoa <br>
-![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query01_endreço_pessoa.PNG?raw=true "Title") <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query01_endereço_pessoa.PNG?raw=true "Title") <br>
 
 Endereço <br>
 ![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query01_ps_juridica.PNG?raw=true "Title") <br>
@@ -299,13 +299,13 @@ Tipo CNH <br>
 ![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query01_catego_cnh.PNG?raw=true "Title") <br>
 
 Veiculo por Motorista <br>
-![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query01_motorista_veculo.PNG?raw=true "Title") <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query01_motorista_veiculo.PNG?raw=true "Title") <br>
 
 Veiculo <br>
 ![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query01_veiculos.PNG?raw=true "Title") <br>
 
 Categoria de veiculos <br>
-![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query01_catego_veiculo.PNG?raw=true "Title") <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query01_catego_veiculos.PNG?raw=true "Title") <br>
 
 Combustivel <br>
 ![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query01_combustivel.PNG?raw=true "Title") <br>
