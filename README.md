@@ -30,8 +30,7 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
 
 
 #### 4.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
-    a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
-    b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
+   
     
 > A Empresa Carga Pesada precisa inicialmente dos seguintes relatórios:
 * Relarótio de veiculos disponíveis incluindo as seguintes informações: id do veiculo, nome do veiculo, categoria do veiculo e status do veiculo.
@@ -42,10 +41,6 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
  
  
 #### 4.2 TABELA DE DADOS DO SISTEMA:
-    a) Esta tabela deve conter todos os atributos do sistema e um mínimo de 10 linhas/registros de dados.
-    b) Esta tabela tem a intenção de simular um relatório com todos os dados que serão armazenados 
-    e deve ser criada antes do modelo conceitual
-    c) Após criada esta tabela não deve ser modificada, pois será comparada com os resultados finais na conclusão do trabalho
     
 [Exemplo de Tabela de dados do Carga Pesada](https://github.com/pulseirasaude/trab01/blob/master/tab_un_1.ods "Tabela - Carga Pesada")
     
@@ -60,13 +55,9 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
     [Grupo02]: Aquário inteligente
 
 #### 5.2 DECISÕES DE PROJETO
-    a) Tabela Enderecos: Optamos em nosso projeto por usar uma tabela com os endereços de cliente, por que um cliente ou funcionário poderá ter mais de um endereço vinculado ao seu cadastro, portanto no atributo ID_CLIENTE E ID_FUNCIONARIO temos a relação com cliente ou funcionário.
-    b) Tabela de Endereco_Serviço: Optamos por criar um endereço para cada serviço pos um cliente pode solicitar o transporte de um endereço diferente do endereço cadastrado em seu registro.
-    c) O campo TIPO dentro de Endereco_Servico informa se o endereço é o de origem ou o de destino dentro do serviço realizado.
-    d) Na tabela Contato decidimos colocar 3 espaços para telefone de vido a empresa ter mais de um responsável pela área.
-    e) Na tabela Contato da mesma forma que na tabela Enderecos temos os atributos ID_CLIENTE E ID_FUNCIONARIO onde temos a relação com cliente ou funcionário.
-    f) Na tabela Financiamento não colocamos as informações de parcelas restantes devido informação poder ser calculada através dos atributos PARCELAS_TOTAIS E PARCELAS_PAGAS.
-    g) Decidimos criar a tabela MODELO para distinguir variações entre modelos de um mesmo tipo de veiculo, essas informações sobre o veiculo são importantes para as notas fiscais.
+   a) Tabela Enderecos: Optamos em nosso projeto por usar uma tabela com os endereços, por que uma pessoa poderá ter mais de um endereço alem de poder existir endereços sem vinculo com pessoas apenas para os transportes; <br
+   b) Na tabela Contato decidimos deixar ela dinamina podendo uma pessoa ter varios contato de acordo com o tipo escolhido;<br>
+ g) Decidimos criar a tabela MODELO para distinguir variações entre modelos de um mesmo tipo de veiculo, essas informações sobre o veiculo são importantes para as notas fiscais. <br>
 
 >## Marco de Entrega 02 em: (17/09/2018)<br>
 #### 5.3 DESCRIÇÃO DOS DADOS 
