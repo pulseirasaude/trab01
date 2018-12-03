@@ -266,7 +266,7 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
    ![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query01_ps_juridica.PNG?raw=true "Title") <br>
     
    Tipo Contato <br>
-    ![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query01_tipo_contato?raw=true "Title") <br>
+    ![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query01_tipo_contato.PNG?raw=true "Title") <br>
 
 Contato <br>
 ![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query01_contato.PNG?raw=true "Title") <br>
