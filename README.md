@@ -546,6 +546,15 @@ Tipo de carga <br>
  Passo 5: Selecionar as consultas e rodar no seu pgadmin no banco restaurado.<br>
         
 ### 13   DIFICULDADES ENCONTRADAS PELO GRUPO<br>
+
+
+- A definição do mapa conceitual demandou muito tempo, com as validações e as redefinições durante o projeto tivemos que refazer várias etapas novamente com a mudança do modelo conceitual.
+
+- O preenchimento de dados em um projeto com muitas tabelas demorou muito tempo e com as mudanças no modelo conceitual tínhamos que refazer esse processo o que atrasava a conclusão de outras tarefas.
+
+- Como a equipe do projeto era difícil se encontrar por causa de diferenças de horário isso gerou falhas de comunicação o que fez com que algumas decisões do projeto ficassem um pouco dispersas entre os integrantes.
+
+
 >## Marco de Entrega Final em: (08/11/2018)<br>
         
 ### 14  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
