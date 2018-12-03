@@ -436,11 +436,33 @@ Tipo de carga <br>
 >## Marco de Entrega 04 em: (18/10/2017)<br>
 
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)<br>
-        a) Uma junção que envolva todas as tabelas possuindo no mínimo 3 registros no resultado
-        b) Outras junções que o grupo considere como sendo as de principal importância para o trabalho
-        
+
    [Script consulta com join e ordenação](https://github.com/pulseirasaude/trab01/blob/master/scripts/jconsulta_join.sql "Script consulta com join e ordenação")
-        
+   
+     Query 01 <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query5_01.PNG?raw=true "Title") <br>
+   
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query5_02.PNG?raw=true "Title") <br>
+
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query5_03.PNG?raw=true "Title") <br>
+
+   Query 02 <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query5_04.PNG?raw=true "Title") <br>
+
+  Query 03 <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query5_05.PNG?raw=true "Title") <br>
+   
+   Query 04 <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query5_06.PNG?raw=true "Title") <br>
+
+   Query 05 <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query5_07.PNG?raw=true "Title") <br>
+
+   Query 06 <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query5_08.PNG?raw=true "Title") <br>
+
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query5_09.PNG?raw=true "Title") <br>
+
 #### 9.7	CONSULTAS COM GROUP BY E FUNÇÕES DE AGRUPAMENTO (Mínimo 6)<br>
 
    [Script consulta com groupby e funções de agrupamento](https://github.com/pulseirasaude/trab01/blob/master/scripts/consulta_grouby.sql "Script consulta com groupby e funções de agrupamento")
