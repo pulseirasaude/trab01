@@ -439,7 +439,7 @@ Tipo de carga <br>
 
    [Script consulta com join e ordenação](https://github.com/pulseirasaude/trab01/blob/master/scripts/jconsulta_join.sql "Script consulta com join e ordenação")
    
-     Query 01 <br>
+   Query 01 <br>
 ![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query5_01.PNG?raw=true "Title") <br>
    
 ![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query5_02.PNG?raw=true "Title") <br>
