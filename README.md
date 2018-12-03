@@ -20,7 +20,7 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
 
 ### 3.MINI-MUNDO<br>
 
-> Sistema que possibilita o gerenciamento frotas veicular tanto como um sistema completo de uma empresa de transporte quanto como um subsistema de uma empresa que tem uma frota veicular. O sistema visa gerenciar todos dados pertinentes ao veiculo como: dados do veiculo, seguro, financiamento, tipo, modelo, motorista. O sistema também faz o gerenciamento dos serviços prestados e controle de clientes.
+> Sistema de controle para uma empresa de serviços de transporte de carga. A aplicação possibilita a organização gerir seus veículos, funcionários, clientes e os serviços prestados. Utilizando o sistema a empresa poderá cadastrar seus clientes, veículos, funcionários e seus serviços de transporte contendo informações que irão auxiliar nas tomadas de decisões de quais os veículos disponíveis para alocar no transporte, qual motorista está alocado para conduzir o veículo no transporte da carga, qual cliente que contratou o transporte, o funcionário responsável pelo transporte, os endereços de origem e destino do transporte, além disso o sistema conterá relatórios importantes de quais áreas de transporte que estão trazendo mais rendimento para empresa, os seus principais clientes, os salários de seus funcionários, podem consultar quais transportes estão ocorrendo ou ocorreram em determinado período.
 
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
