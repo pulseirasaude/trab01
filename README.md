@@ -526,7 +526,18 @@ Tipo de carga <br>
 
         
 #### 9.10	SUBCONSULTAS (Mínimo 3)<br>
-   [Script subconsulta](https://github.com/pulseirasaude/trab01/blob/master/scripts/subconsulta.sql "Script subconsulta")
+  
+  [Script subconsulta](https://github.com/pulseirasaude/trab01/blob/master/scripts/subconsulta.sql "Script subconsulta")
+   
+   Query 01 <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query10_01.PNG?raw=true "Title") <br>
+   
+   Query 02 <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query10_02.PNG?raw=true "Title") <br>
+
+   Query 03 <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query10_03.PNG?raw=true "Title") <br>
+
 
 ### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)<br>
 
