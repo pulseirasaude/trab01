@@ -546,11 +546,11 @@ Tipo de carga <br>
 
 ### 12	TUTORIAL COMPLETO DE PASSOS PARA RESTAURACAO DO BANCO E EXECUCAO DE PROCEDIMENTOS ENVOLVIDOS NO TRABALHO PARA OBTENÇÃO DOS RESULTADOS<br>
  
- Passo 1: Baixar o backup clicando no link acima, no topico 11.
- Passo 2: Criar um banco de dados atraves do seu pgadmin.
- Passo 3: Clicar com o botão direito, ir em restore e selecionar o arquivo baixado no passo 1.
- Passo 4: Para rodar qualquer teste feito é simples, basta clicar link do teste que deseja logo abaixo do titulo de cada.
- Passo 5: Selecionar as consultas e rodar no seu pgadmin no banco restaurado.
+ Passo 1: Baixar o backup clicando no link acima, no topico 11.<br>
+ Passo 2: Criar um banco de dados atraves do seu pgadmin.<br>
+ Passo 3: Clicar com o botão direito, ir em restore e selecionar o arquivo baixado no passo 1.<br>
+ Passo 4: Para rodar qualquer teste feito é simples, basta clicar link do teste que deseja logo abaixo do titulo de cada.<br>
+ Passo 5: Selecionar as consultas e rodar no seu pgadmin no banco restaurado.<br>
         
 ### 13   DIFICULDADES ENCONTRADAS PELO GRUPO<br>
 >## Marco de Entrega Final em: (08/11/2018)<br>
