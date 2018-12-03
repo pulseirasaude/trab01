@@ -336,11 +336,22 @@ Tipo de carga <br>
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
    [Script com filtro Where](https://github.com/pulseirasaude/trab01/blob/master/scripts/where_script.sql "Script com filtro Where")
-#### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
-    a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not
-    b) Criar no mínimo 3 consultas com operadores aritméticos 
-    c) Criar no mínimo 3 consultas com operação de renomear nomes de campos ou tabelas
     
+   Query 01 <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query02_01.PNG?raw=true "Title") <br>
+   
+   Query 02 <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query02_02.PNG?raw=true "Title") <br>
+
+   Query 03 <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query02_03.PNG?raw=true "Title") <br>
+
+   Query 04 <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query02_04.PNG?raw=true "Title") <br>
+
+
+
+#### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
    [Script com Operadores](https://github.com/pulseirasaude/trab01/blob/master/scripts/script_operadores.sql "Script com Operadores")
 
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
