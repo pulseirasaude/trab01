@@ -72,92 +72,159 @@ Este documento contém a especificação do projeto do banco de dados Carga Pesa
 #### 5.3 DESCRIÇÃO DOS DADOS 
     [objeto]: [descrição do objeto]
     
-    CLIENTE: Tabela que armazena as informações relativas ao cliente
-    nome: campo que armazena o nome do cliente.
-    cpf: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.
-    cnpj: campo que armazena o número de Cadastro de Pessoa Juridica para cada cliente da empresa.
-    data_cadastro: campo que armazena a data do cadastro do cliente na empresa.
-   
-    FUNCIONARIO: Tabela que armazena as informações relativas ao funcionário da empresa.
-    nome: campo que armazena o nome do funcionário.
-    cpf: campo que armazena o número de Cadastro de Pessoa Física para cada funcionário da empresa.
-    cargo: campo que armazena o cargo ocupado pelo funcionário da empresa.
-    salario: campo que armazena o salário do funcionário da empresa.
-    sexo: campo que armazena o sexo do funcionário da empresa.
-    data_cadastro: campo que armazena a data de entrada do funcionário da empresa.
-    data_nascimento: campo que armazena a data de nascimento do funcionário da empresa.
+    PESSOA: Tabela que guarda nome e data de cadastro
+    id: Id da pessoa cadastrada que identifica se a pessoa é física ou jurídica 
+    nome: Nome da pessoa cadastrada
+    data_cadastro: Data que foi feito o cadastro
+
+    PESSOA_FISICA: tabela que armazena as informações relativas a pessoa física
+    id: id da pessoa fisica com relação a tabela PESSOA	
+    cpf: cpf da pessoa fisica cadastrada
+    data_nascimento: Data de nascimento da pessoa fisica cadastrada
+    sexo: Tipo do sexo ‘masculino’ ou ‘feminino’ da pessoa fisica cadastrada
+    id_pessoa: id da pessoa fisica cadastrada
+
+    PESSOA_JURIDICA: Tabela que armazena as informações relativas a pessoa jurídica
+    id: id da pessoa jurídica com relação a tabela PESSOA
+    cnpj: cnpj da pessoa jurídica
+    razao_social: 
+    id_pessoa: id da pessoa jurídica cadastrada
+
+    FUNCIONARIO: Tabela que armazena as informações relativas a os funcionários
+    id: id do funcionário
+    cargo: cargo que o funcionário ocupa
+    salario: salario do funcionário
+    id_pessoa_fisica: id da pessoa fisica
+
+    CATEGORIA_CNH: Tabela que armazena as categorias do cnh
+    id: id do cnh
+    categoria: categoria que tal cnh pertence
+
+    MOTORISTA: Tabela que armazena as informações relativas a os motoristas
+    id: id do motorista
+    numero_cnh: numero do cnh do motorista
+    data_vencimento: campo que armazena a data de vencimento do cnh
+    id_categoria_cnh: campo que identifica a categoria do cnh com relação a tabela CATEGORIA_CNH
+    id_funcionario: campo que idêntica o funcionário com relação a tabela FUNCIONARIO
+
+    TIPO_CONTATO: Tabela que armazena as informações de contato
+    id: id do contato
+    tipo: tipo do contado (e-mail, telefone...)
+
+    CONTATO: Tabela que armazena as informações relativas ao contato de clientes
+    Id: id do contato
+    Contato: campo que armazena o contato
+    id_tipo: campo que armazena o tipo de contato com relação a tabela TIPO_CONTATO
+    id_pessoa: campo que armazena o id do tipo de pessoa(fisica ou jurídica)
+
+    ESTADO: Tabela que armazena as informações relativas a os estados do país
+    id: id do estado
+    sigla: sigla do estado
+    nome: nome do estado
+
+    CIDADE: Tabela que armazena as informações relativas as cidade do estado
+    id: id da cidade
+    nome: nome da cidade
+    id_estado: campo que armazena o id do estado com relação a tabela ESTADO
+
+    BAIRRO: Tabela que armazena as informações relativas a os bairros
+    id: id do bairro
+    nome: nome do bairro
+    id_cidade: campo que armazena o id da cidade com relação a tabela CIDADE
+
+    LOGRADOURO: tabela que armazena as informações relativas a o logradouro
+    id: id do logradouro
+    abreviacao: abreviação do logradouro
+    nome: nome do logradouro
+
+    ENDERECO: Tabela que armazena as informações relativas a o endereço
+    id: id do endereço
+    endereço: endereço do local
+    numero: numero do local
+    cep: cep do local
+    complemento: complemente relativo do enedreço
+    id_estado: id do estado com relação a tabela ESTADO
+    id_logradouro: id do logradouro com relação a tabela LOGRADOURO
+
+    ENDERECO_PESSOA: Endereço do pessoa
+    id: id do endereço do pessoa
+    id_endereco_ id do endereço com relação a tabela ENDERECO
+    id_pessoa: id da pessoa com relação a tabela PESSOA
+
+    CATEGORIA_VEICULO: Categoria do veiculo
+    id: id da categoria de veiculo
+    categoria: categoria que o veiculo pertence
+
+    MARCA: tabela que armazena informações da marca do veiculo
+    id: id da marca
+    marca: campo que armazena a marca do veiculo
+
+    EIXO: Tabela que armazena informações relativas a quantidade de eixos
+    id: id do eixo
+    quantidade_eixo: quantidade de eixos
     
-    MOTORISTA: Tabela que armazena as informações relativas ao motorista da empresa.
-    cnh: campo que armazena a identificação da CNH do motorista.
-    data_vencimento: campo que armazena o vencimento da CNH.
-    categoria: campo que armazena o tipo da CNH.
-    id_funcionario: campo que armazena a identificação que relaciona o motorista com suas informações como funcionario.
-    
-    CONTATO: Tabela que guarda contato do funcionario ou cliente.
-    telefone_01: Campo que armazena numero do telefone do funcionario ou cliente. 
-    telefone_02: Campo que armazena numero do telefone do funcionario ou cliente.
-    telefone_03: Campo que armazena numero do telefone do funcionario ou cliente.
-    email: Campo que armazena email do funcionario ou cliente.
-      
-    ENDERECO: Tabela que guarda endereço do funcionario ou cliente.
-    endereco: campo que armazena o nome do endereço.
-    logradouro: campo que armazena o logradouro do endereço.
-    numero: campo que armazena o número do endereço.
-    cep: campo que armazena o cep do endereço.
-    complemento: campo que armazena o complemento do endereço.
-    cidade: campo que armazena a cidade do endereço.
-    estado: campo que armazena o estado do endereço.
-       
-    CATEGORIA: Tabela que armazena a categoria do veiculo.
-    nome: campo que armazena nome da categoria do veiculo.
-    modelo: Tabela que guarda modelo do veiculo.
-    modelo: campo que armazena o modelo do veiculo.
-    marca: campo que armazena a marca do veiculo.
-    ano: campo que armazena o ano do veiculo.
-    eixo: campo que armazena quantos eixos o veiculo tem.
-    peso: campo que armazena o peso do veiculo.
-    altura: campo que armazena a altura do veiculo.
-    largura: campo que armazena a largura do veiculo.
-    comprimento: campo que armazena o comprimento do veiculo.
-    cor: campo que armazena a cor do veiculo.
-    
-    VEICULO: Tabela que guarda informações do veiculo.
-    nome: campo que armazena o nome do veiculo.
-    chassi: campo que armazena o chassi do veiculo.
-    placa: campo que armazena a placa do veiculo.
-    status: campo que armazena o status do veiculo.
-    combustivel: campo que armazena o tipo do combustivel do veiculo.
-    id_categoria: campo que armazena a identificação que relaciona o veiculo com sua categoria.
-    id_modelo: campo que armazena a identificação que relaciona o veiculo com seu modelo.
-    id_motorista: campo que armazena a identificação que relaciona o veiculo com seu motorista.
-    
-    SEGURO: Tabela que armazena informações sobre o seguro do veiculo.
-    status: campo que armazena status do seguro.
-    data_vencimento: campo que armazena data do vencimento de cada parcela do seguro.
-    fim_contrato: campo que armazena data do vencimento do contrato do seguro.
-    id_veiculo: campo que armazena a identificação que relaciona o seguro com respectivo veiculo.
-    
-    FINANCIAMENTO: Tabela que armazena informações sobre o financiamento de veiculos.
-    valor_parcelas: campo que armazena o valor das parcelas do financiamento.
-    parcelas_totais: campo que armazena a quantidade de parcelas do financiamento.
-    parcelas_pagas: campo que armazena a quantidade de parcelas pagas do financiamento.
-    financiador: campo que armazena o financiador do financiamento.
-    id_veiculo: campo que armazena a identificação que relaciona o financiamento com respectivo veiculo.
-    
-    SERVICO: Tabela que armazena informações sobre serviço.
-    status: campo que armazena o status do serviço.
-    valor_contrato: campo que armazena o valor do contrato.
-    data_inicio: campo que armazena a data inicio do contrato.
-    data_fim: campo que armazena a data fim do contrato.
-    id_cliente: campo que armazena a identificação que relaciona o serviço com respectivo cliente.
-    id_funcionario: campo que armazena a identificação que relaciona o serviço com respectivo funcionario.
-    id_veiculo: campo que armazena a identificação que relaciona o serviço com respectivo veiculo.
-    id_endereco_origem: campo que armazena a identificação que relaciona o serviço com respectivo endereço de origem.
-    id_endereco_destino: campo que armazena a identificação que relaciona o serviço com respectivo endereço de destino.
-       
-    ENDERECO PESSOA: Tabela que armazena e relaciona o cliente com o(s) seu(s) respectivo(s) endereço(s).
-    id_endereco: campo que armazena o id do endereco.
-    id_funcionario: campo que armazena o id do funcionario.
+    COR: tabela que armazena informações da cor dos veículos
+    id: id da cor
+    cor: campo que as cores
+
+    MODELO: Tabela que armazena informações do modelo do veiculo
+    id: id do moelo
+    modelo: nome do modelo do veiculo
+    ano: ano do modelo do veiculo
+    peso: peso do veiculo
+    altura: altura do veiculo
+    largura: largura do veiculo
+    comprimento: comprimento do veiculo
+    id_marca: campo que armazena o id da marca com relação a tabela MARCA
+    id_eixo: campo que armazena o id do eixo com relação a tabela EIXO
+    id_cor: campo que armazena o id da cor com relação a tabela COR
+
+    STATUS_VEICULO: Tabela que armazena informações do status dos veículos
+    id: id do veiculo
+    status: campo que armazena o status do veiculo
+
+    COMBUSTIVEL: Tabela de combustíveis
+    id: id do combustível
+    combustível: campo que armazena o tipo de combustível
+
+    VEICULO: Tabela que armazena informações dos veículos
+    id: id do veiculo
+    nome: nome do veiculo
+    chassi: chassi do veiculo
+    placa: placa do veiculo
+    id_status: campo que armazena o id do status do veiculo com relação a tabela STATUS_VEICULO
+    id_combustivel: campo que armazena o id do combustível com relação a tabela COMBUSTIVEL
+    id_categoria: campo que armazena o id da categoria com relação a tabela CATEGORIA_VEICULO
+    id_modelo: campo que armazena o id do modelo com relação a tabela MODELO
+
+    MOTORISTA_VEICULO: Tabela que armazena informações dos motorista e veiculo
+    id: id de motorista_veiculo
+    data_inicio: data que se inicia o serviço contratado
+    data_fim: data que finaliza o serviço contratado
+    id_motorista: campo que armazena o id do motorista com relação a tabela MOTORISTA
+    id_veiculo: campo que armazena o id do veiculo com relação a tabela VEICULO
+
+    STATUS_TRANSPORTE: Tabela que armazena as informações do status do transporte
+    Id: id do status
+    Status: campo que armazena informações sobre o status
+
+    TIPO_CARGA: Tabela que armazena o tipo de carga
+    Id: id do tipo de carga
+    tipo: campo que armazena o tipo de carga que esta sendo transportado
+
+    TRANSPORTE: Tabela que armazena informações relativas a o transporte 
+    id: id do transporte
+    valor_contrato: valor do contrato
+    data_inicio: data de inicio do transporte
+    data_fim: data de finalização do transporte
+    id_status: campo que armazena o tipo de status com relação a tabela STATUS_TRANSPORTE
+    id_tipo_carga: campo que armazena o tipo de carga com relação a tabela TIPO_CARGA
+    id_cliente: campo que armazena o id do cliente com relação a tabela PESSOA
+    id_funcionario: campo que armazena o id do funcionário com relação a tabela FUNCIONARIO
+    id_veiculo: campo que armazena o id do veiculo com relação a tabela VEICULO
+    id_endereco_origem: campo que armazena o endereço de origem com relação a tabela ENDERECO
+    id_endereco_destino: campo que armazena o endereço de destino com relação a tabela ENDERECO
+
    
     
     
