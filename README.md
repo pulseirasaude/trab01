@@ -399,7 +399,7 @@ Tipo de carga <br>
 ![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query4_02.PNG?raw=true "Title") <br>
 
    Query 03 <br>
-![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query_03.PNG?raw=true "Title") <br>
+![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query4_03.PNG?raw=true "Title") <br>
 
    Query 04 <br>
 ![Alt text](https://github.com/pulseirasaude/trab01/blob/master/images/Query4_04.PNG?raw=true "Title") <br>
